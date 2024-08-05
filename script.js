@@ -10428,6 +10428,106 @@ document.addEventListener("DOMContentLoaded", function() {
   
         ],
         'Everything Else': [ 
+            {
+  "question": "What is the primary purpose of the 'interface type port-number' command in a switch?",
+  "options": [
+    "To change context to interface mode for a specific port",
+    "To display the current configuration of the switch",
+    "To set the speed of the interface",
+    "To enable all interfaces on the switch"
+  ],
+  "correctOption": "To change context to interface mode for a specific port"
+},
+{
+  "question": "Which command would you use to apply settings to multiple interfaces at once?",
+  "options": [
+    "show interfaces",
+    "shutdown",
+    "interface range type port-number - end-port-number",
+    "interface type port-number"
+  ],
+  "correctOption": "interface range type port-number - end-port-number"
+},
+{
+  "question": "What does the 'shutdown' command do in interface mode?",
+  "options": [
+    "Enables the interface",
+    "Disables the interface",
+    "Displays interface statistics",
+    "Sets the interface speed"
+  ],
+  "correctOption": "Disables the interface"
+},
+{
+  "question": "What does the 'duplex full' command configure on a switch interface?",
+  "options": [
+    "Automatic duplex negotiation",
+    "Full-duplex communication",
+    "Half-duplex communication",
+    "No duplex setting"
+  ],
+  "correctOption": "Full-duplex communication"
+},
+{
+  "question": "If you want to set the speed of an interface to automatically negotiate, which command would you use?",
+  "options": [
+    "speed 10",
+    "speed 1000",
+    "speed 100",
+    "speed auto"
+  ],
+  "correctOption": "speed auto"
+},
+{
+  "question": "What is the purpose of the 'description text' command in interface mode?",
+  "options": [
+    "To set the speed of the interface",
+    "To disable the interface",
+    "To display the current configuration",
+    "To provide a label or note about the interface"
+  ],
+  "correctOption": "To provide a label or note about the interface"
+},
+{
+  "question": "What happens when you use the 'no duplex' command on an interface?",
+  "options": [
+    "It sets the duplex to full",
+    "It reverts the duplex setting to auto",
+    "It disables the interface",
+    "It sets the duplex to half"
+  ],
+  "correctOption": "It reverts the duplex setting to auto"
+},
+{
+  "question": "What information does the 'show mac address-table dynamic' command provide?",
+  "options": [
+    "The dynamically learned MAC addresses",
+    "The status of all interfaces",
+    "The speed settings of interfaces",
+    "The current configuration of the switch"
+  ],
+  "correctOption": "The dynamically learned MAC addresses"
+},
+{
+  "question": "Which command would you use to view the current configuration of the switch?",
+  "options": [
+    "show interfaces",
+    "show mac address-table dynamic",
+    "interface type port-number",
+    "show running-config"
+  ],
+  "correctOption": "show running-config"
+},
+{
+  "question": ". What type of information can you obtain from the 'show interfaces' command?",
+  "options": [
+    "The speed settings of all interfaces",
+    "The MAC address table",
+    "The current configuration of the switch",
+    "Detailed status and statistics of interfaces"
+  ],
+  "correctOption": "Detailed status and statistics of interfaces"
+},
     
         
           ]
