@@ -10104,6 +10104,106 @@ document.addEventListener("DOMContentLoaded", function() {
                 ],
                 "correctOption": "It is supported on all vendors' equipment."
             },
+            {
+  "question": "Which of the following best describes a Local Area Network (LAN)?",
+  "options": [
+    "A network that only connects wireless devices.",
+    "A network that includes all user devices, servers, switches, routers, cables, and wireless access points in one location.",
+    "A network that is limited to a single type of device.",
+    "A network that connects devices over long distances."
+  ],
+  "correctOption": "A network that includes all user devices, servers, switches, routers, cables, and wireless access points in one location."
+},
+{
+  "question": "What is a broadcast domain?",
+  "options": [
+    "A type of network that uses wireless technology exclusively.",
+    "A network segment that only allows wired connections.",
+    "All LAN-connected devices that receive the same broadcast frame.",
+    "A group of devices that can communicate without a switch."
+  ],
+  "correctOption": "All LAN-connected devices that receive the same broadcast frame."
+},
+{
+  "question": "What is the default behavior of a switch regarding its interfaces?",
+  "options": [
+    "All interfaces are in separate broadcast domains.",
+    "All interfaces are considered to be in the same broadcast domain.",
+    "Switches do not manage broadcast domains.",
+    "Interfaces can only communicate with each other if they are in different VLANs."
+  ],
+  "correctOption": "All interfaces are considered to be in the same broadcast domain."
+},
+{
+  "question": "How does a switch handle broadcast frames by default?",
+  "options": [
+    "It creates a separate broadcast domain for each port.",
+    "It drops all broadcast frames.",
+    "It forwards the broadcast frame out all other ports.",
+    "It only forwards the frame to specific ports."
+  ],
+  "correctOption": "It forwards the broadcast frame out all other ports."
+},
+{
+  "question": "To create two different LAN broadcast domains, what was traditionally required?",
+  "options": [
+    "A wireless access point.",
+    "Two different Ethernet LAN switches.",
+    "A single switch with VLAN capabilities.",
+    "A router to separate the domains."
+  ],
+  "correctOption": "Two different Ethernet LAN switches."
+},
+{
+  "question": "What is the primary benefit of using VLANs in a LAN?",
+  "options": [
+    "They eliminate the need for any switches.",
+    "They allow for the creation of multiple broadcast domains within a single switch.",
+    "They increase the number of physical switches needed.",
+    "They only connect devices in different geographical locations."
+  ],
+  "correctOption": "They allow for the creation of multiple broadcast domains within a single switch."
+},
+{
+  "question": "Which of the following statements accurately describes the role of VLANs in a network?",
+  "options": [
+    "VLANs are only applicable to wireless networks.",
+    "VLANs allow a single switch to create multiple broadcast domains.",
+    "VLANs can only be created using multiple physical switches.",
+    "VLANs eliminate the need for switches in a network."
+  ],
+  "correctOption": "VLANs allow a single switch to create multiple broadcast domains."
+},
+{
+  "question": "What happens when a broadcast frame is sent from a host in one VLAN?",
+  "options": [
+    "It is dropped by the switch.",
+    "It is forwarded to all VLANs.",
+    "It is received by all hosts in the same VLAN only.",
+    "It is received by all hosts in the network."
+  ],
+  "correctOption": "It is received by all hosts in the same VLAN only."
+},
+{
+  "question": "Which statement about VLANs is accurate?",
+  "options": [
+    "VLANs require multiple physical switches to function.",
+    "All devices in a VLAN must be in the same physical location.",
+    "VLANs can help reduce wasted effort and security risks by limiting broadcast traffic.",
+    "A broadcast sent by one host in a VLAN will be received by all hosts in the network."
+  ],
+  "correctOption": "VLANs can help reduce wasted effort and security risks by limiting broadcast traffic."
+},
+{
+  "question": ". Why might an organization choose to create smaller broadcast domains using VLANs?",
+  "options": [
+    "To ensure all devices are in the same broadcast domain.",
+    "To increase the number of devices that can communicate directly.",
+    "To simplify the network by using fewer switches.",
+    "To improve host performance and reduce security risks."
+  ],
+  "correctOption": "To improve host performance and reduce security risks."
+},
             
   
         ],
