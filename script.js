@@ -10204,6 +10204,2997 @@ document.addEventListener("DOMContentLoaded", function() {
   ],
   "correctOption": "To improve host performance and reduce security risks."
 },
+            {
+  "question": "What is one of the primary benefits of using VLANs in a network?",
+  "options": [
+    "To increase the physical size of the network",
+    "To improve security for hosts through different security policies per VLAN",
+    "To eliminate the need for switches",
+    "To reduce the number of devices in a network"
+  ],
+  "correctOption": "To improve security for hosts through different security policies per VLAN"
+},
+{
+  "question": "In a network design without VLAN trunking, what is a potential limitation?",
+  "options": [
+    "Higher bandwidth availability",
+    "Increased security for all devices",
+    "Reduced flexibility in grouping users",
+    "Simplified network management"
+  ],
+  "correctOption": "Reduced flexibility in grouping users"
+},
+{
+  "question": "How does limiting a VLAN to a single access switch affect the Spanning Tree Protocol (STP)?",
+  "options": [
+    "It reduces the workload for STP",
+    "It has no effect on STP",
+    "It complicates STP configurations",
+    "It increases the workload for STP"
+  ],
+  "correctOption": "It reduces the workload for STP"
+},
+{
+  "question": "What is VLAN trunking primarily used for?",
+  "options": [
+    "To increase the bandwidth of a single switch",
+    "To simplify the configuration of network devices",
+    "To allow a VLAN to exist on more than one LAN switch",
+    "To connect multiple routers in a network"
+  ],
+  "correctOption": "To allow a VLAN to exist on more than one LAN switch"
+},
+{
+  "question": "When configuring VLANs on a single switch, what is the primary task?",
+  "options": [
+    "Configuring each port to its VLAN number",
+    "Creating a network map",
+    "Connecting multiple switches",
+    "Setting up a firewall"
+  ],
+  "correctOption": "Configuring each port to its VLAN number"
+},
+{
+  "question": "What is required on the links between switches when using VLANs in a network with multiple interconnected switches?",
+  "options": [
+    "Static IP addressing",
+    "VLAN trunking",
+    "Network segmentation",
+    "Firewall rules"
+  ],
+  "correctOption": "VLAN trunking"
+},
+{
+  "question": "What does VLAN tagging involve in the context of VLAN trunking?",
+  "options": [
+    "Creating a backup of VLAN configurations",
+    "Assigning IP addresses to VLANs",
+    "Adding a security layer to the network",
+    "Adding a header to the frame before sending it over the trunk"
+  ],
+  "correctOption": "Adding a header to the frame before sending it over the trunk"
+},
+{
+  "question": "What does the VLAN trunking header include to identify the VLAN?",
+  "options": [
+    "A MAC address",
+    "A VLAN identifier (VLAN ID) field",
+    "An IP address",
+    "A timestamp"
+  ],
+  "correctOption": "A VLAN identifier (VLAN ID) field"
+},
+{
+  "question": "In a design with two VLANs, how can traffic be forwarded between switches?",
+  "options": [
+    "By using a link that is fully inside one VLAN",
+    "By implementing a router between the switches",
+    "By connecting the switches without any configuration",
+    "By using a single VLAN for all traffic"
+  ],
+  "correctOption": "By using a link that is fully inside one VLAN"
+},
+{
+  "question": "What would happen if VLAN trunking was not used in a network with multiple VLANs?",
+  "options": [
+    "Switches would not be able to forward frames.",
+    "All VLANs would merge into a single broadcast domain.",
+    "Each VLAN would require a separate physical link.",
+    "Only one VLAN would be able to communicate."
+  ],
+  "correctOption": "Each VLAN would require a separate physical link."
+},
+{
+  "question": "What is the primary benefit of VLAN trunking in a network?",
+  "options": [
+    "It increases the number of broadcast domains in a network.",
+    "It eliminates the need for switches in a network.",
+    "It requires separate links for each VLAN.",
+    "It allows for multiple VLANs to share a single physical link."
+  ],
+  "correctOption": "It allows for multiple VLANs to share a single physical link."
+},
+{
+  "question": "Why is VLAN trunking important for network scalability?",
+  "options": [
+    "It eliminates the need for routing between VLANs.",
+    "It allows for unlimited VLANs without additional hardware.",
+    "It reduces the number of required switch ports.",
+    "It simplifies the configuration of network devices."
+  ],
+  "correctOption": "It allows for unlimited VLANs without additional hardware."
+},
+{
+  "question": "What is a key characteristic of VLAN traffic on a trunk link?",
+  "options": [
+    "VLAN traffic is only forwarded to the default VLAN.",
+    "VLAN traffic is not forwarded over trunk links.",
+    "VLAN traffic is kept separate based on VLAN IDs.",
+    "All VLAN traffic is combined into one stream."
+  ],
+  "correctOption": "VLAN traffic is kept separate based on VLAN IDs."
+},
+{
+  "question": "Which of the following statements accurately describes the role of VLAN IDs in a trunked network?",
+  "options": [
+    "VLAN IDs are used to identify the physical location of devices.",
+    "VLAN IDs are used to combine multiple VLANs into one.",
+    "VLAN IDs are irrelevant in a trunked network.",
+    "VLAN IDs help switches forward frames only to the correct VLAN."
+  ],
+  "correctOption": "VLAN IDs help switches forward frames only to the correct VLAN."
+},
+{
+  "question": "How does a switch identify which VLAN a frame belongs to when using trunking?",
+  "options": [
+    "By analyzing the frame size.",
+    "By using the IP address of the sender.",
+    "By adding a VLAN header that includes the VLAN ID.",
+    "By checking the MAC address of the frame."
+  ],
+  "correctOption": "By adding a VLAN header that includes the VLAN ID."
+},
+{
+  "question": "What happens to a VLAN header when a switch forwards a frame?",
+  "options": [
+    "It is kept for future reference.",
+    "It is removed before the frame is sent out.",
+    "It is modified to include the destination MAC address.",
+    "It is added to the frame again."
+  ],
+  "correctOption": "It is removed before the frame is sent out."
+},
+{
+  "question": "In a trunked network, how does SW2 handle received frames addressed to VLAN 20?",
+  "options": [
+    "It drops the frame entirely.",
+    "It sends the frame to VLAN 10 devices.",
+    "It forwards the frame only to ports in VLAN 20.",
+    "It floods the frame to all ports."
+  ],
+  "correctOption": "It forwards the frame only to ports in VLAN 20."
+},
+{
+  "question": "What is the purpose of the 802.1Q protocol in VLAN trunking?",
+  "options": [
+    "To increase the speed of data transmission.",
+    "To eliminate the need for VLANs in a network.",
+    "To add a VLAN header to Ethernet frames.",
+    "To create separate physical connections for each VLAN."
+  ],
+  "correctOption": "To add a VLAN header to Ethernet frames."
+},
+{
+  "question": ". Which two trunking protocols are supported by Cisco?",
+  "options": [
+    "ISL and 802.3",
+    "802.1Q and 802.3ad",
+    "ISL and IEEE 802.1Q",
+    "ISL and 802.1X"
+  ],
+  "correctOption": "ISL and IEEE 802.1Q"
+}, 
+{
+  "question": "What would happen if VLAN trunking was not used in a network with multiple VLANs?",
+  "options": [
+    "Switches would not be able to forward frames.",
+    "All VLANs would merge into a single broadcast domain.",
+    "Each VLAN would require a separate physical link.",
+    "Only one VLAN would be able to communicate."
+  ],
+  "correctOption": "Each VLAN would require a separate physical link."
+},
+{
+  "question": "What is the primary benefit of VLAN trunking in a network?",
+  "options": [
+    "It increases the number of broadcast domains in a network.",
+    "It eliminates the need for switches in a network.",
+    "It requires separate links for each VLAN.",
+    "It allows for multiple VLANs to share a single physical link."
+  ],
+  "correctOption": "It allows for multiple VLANs to share a single physical link."
+},
+{
+  "question": "Why is VLAN trunking important for network scalability?",
+  "options": [
+    "It eliminates the need for routing between VLANs.",
+    "It allows for unlimited VLANs without additional hardware.",
+    "It reduces the number of required switch ports.",
+    "It simplifies the configuration of network devices."
+  ],
+  "correctOption": "It allows for unlimited VLANs without additional hardware."
+},
+{
+  "question": "What is a key characteristic of VLAN traffic on a trunk link?",
+  "options": [
+    "VLAN traffic is only forwarded to the default VLAN.",
+    "VLAN traffic is not forwarded over trunk links.",
+    "VLAN traffic is kept separate based on VLAN IDs.",
+    "All VLAN traffic is combined into one stream."
+  ],
+  "correctOption": "VLAN traffic is kept separate based on VLAN IDs."
+},
+{
+  "question": "Which of the following statements accurately describes the role of VLAN IDs in a trunked network?",
+  "options": [
+    "VLAN IDs are used to identify the physical location of devices.",
+    "VLAN IDs are used to combine multiple VLANs into one.",
+    "VLAN IDs are irrelevant in a trunked network.",
+    "VLAN IDs help switches forward frames only to the correct VLAN."
+  ],
+  "correctOption": "VLAN IDs help switches forward frames only to the correct VLAN."
+},
+{
+  "question": "How does a switch identify which VLAN a frame belongs to when using trunking?",
+  "options": [
+    "By analyzing the frame size.",
+    "By using the IP address of the sender.",
+    "By adding a VLAN header that includes the VLAN ID.",
+    "By checking the MAC address of the frame."
+  ],
+  "correctOption": "By adding a VLAN header that includes the VLAN ID."
+},
+{
+  "question": "What happens to a VLAN header when a switch forwards a frame?",
+  "options": [
+    "It is kept for future reference.",
+    "It is removed before the frame is sent out.",
+    "It is modified to include the destination MAC address.",
+    "It is added to the frame again."
+  ],
+  "correctOption": "It is removed before the frame is sent out."
+},
+{
+  "question": "In a trunked network, how does SW2 handle received frames addressed to VLAN 20?",
+  "options": [
+    "It drops the frame entirely.",
+    "It sends the frame to VLAN 10 devices.",
+    "It forwards the frame only to ports in VLAN 20.",
+    "It floods the frame to all ports."
+  ],
+  "correctOption": "It forwards the frame only to ports in VLAN 20."
+},
+{
+  "question": "What is the purpose of the 802.1Q protocol in VLAN trunking?",
+  "options": [
+    "To increase the speed of data transmission.",
+    "To eliminate the need for VLANs in a network.",
+    "To add a VLAN header to Ethernet frames.",
+    "To create separate physical connections for each VLAN."
+  ],
+  "correctOption": "To add a VLAN header to Ethernet frames."
+},
+{
+  "question": ". Which two trunking protocols are supported by Cisco?",
+  "options": [
+    "ISL and 802.3",
+    "802.1Q and 802.3ad",
+    "ISL and IEEE 802.1Q",
+    "ISL and 802.1X"
+  ],
+  "correctOption": "ISL and IEEE 802.1Q"
+},
+{
+  "question": "What would happen if VLAN trunking was not used in a network with multiple VLANs?",
+  "options": [
+    "Switches would not be able to forward frames.",
+    "All VLANs would merge into a single broadcast domain.",
+    "Each VLAN would require a separate physical link.",
+    "Only one VLAN would be able to communicate."
+  ],
+  "correctOption": "Each VLAN would require a separate physical link."
+},
+{
+  "question": "What is the primary benefit of VLAN trunking in a network?",
+  "options": [
+    "It increases the number of broadcast domains in a network.",
+    "It eliminates the need for switches in a network.",
+    "It requires separate links for each VLAN.",
+    "It allows for multiple VLANs to share a single physical link."
+  ],
+  "correctOption": "It allows for multiple VLANs to share a single physical link."
+},
+{
+  "question": "Why is VLAN trunking important for network scalability?",
+  "options": [
+    "It eliminates the need for routing between VLANs.",
+    "It allows for unlimited VLANs without additional hardware.",
+    "It reduces the number of required switch ports.",
+    "It simplifies the configuration of network devices."
+  ],
+  "correctOption": "It allows for unlimited VLANs without additional hardware."
+},
+{
+  "question": "What is a key characteristic of VLAN traffic on a trunk link?",
+  "options": [
+    "VLAN traffic is only forwarded to the default VLAN.",
+    "VLAN traffic is not forwarded over trunk links.",
+    "VLAN traffic is kept separate based on VLAN IDs.",
+    "All VLAN traffic is combined into one stream."
+  ],
+  "correctOption": "VLAN traffic is kept separate based on VLAN IDs."
+},
+{
+  "question": "Which of the following statements accurately describes the role of VLAN IDs in a trunked network?",
+  "options": [
+    "VLAN IDs are used to identify the physical location of devices.",
+    "VLAN IDs are used to combine multiple VLANs into one.",
+    "VLAN IDs are irrelevant in a trunked network.",
+    "VLAN IDs help switches forward frames only to the correct VLAN."
+  ],
+  "correctOption": "VLAN IDs help switches forward frames only to the correct VLAN."
+},
+{
+  "question": "How does a switch identify which VLAN a frame belongs to when using trunking?",
+  "options": [
+    "By analyzing the frame size.",
+    "By using the IP address of the sender.",
+    "By adding a VLAN header that includes the VLAN ID.",
+    "By checking the MAC address of the frame."
+  ],
+  "correctOption": "By adding a VLAN header that includes the VLAN ID."
+},
+{
+  "question": "What happens to a VLAN header when a switch forwards a frame?",
+  "options": [
+    "It is kept for future reference.",
+    "It is removed before the frame is sent out.",
+    "It is modified to include the destination MAC address.",
+    "It is added to the frame again."
+  ],
+  "correctOption": "It is removed before the frame is sent out."
+},
+{
+  "question": "In a trunked network, how does SW2 handle received frames addressed to VLAN 20?",
+  "options": [
+    "It drops the frame entirely.",
+    "It sends the frame to VLAN 10 devices.",
+    "It forwards the frame only to ports in VLAN 20.",
+    "It floods the frame to all ports."
+  ],
+  "correctOption": "It forwards the frame only to ports in VLAN 20."
+},
+{
+  "question": "What is the purpose of the 802.1Q protocol in VLAN trunking?",
+  "options": [
+    "To increase the speed of data transmission.",
+    "To eliminate the need for VLANs in a network.",
+    "To add a VLAN header to Ethernet frames.",
+    "To create separate physical connections for each VLAN."
+  ],
+  "correctOption": "To add a VLAN header to Ethernet frames."
+},
+{
+  "question": ". Which two trunking protocols are supported by Cisco?",
+  "options": [
+    "ISL and 802.3",
+    "802.1Q and 802.3ad",
+    "ISL and IEEE 802.1Q",
+    "ISL and 802.1X"
+  ],
+  "correctOption": "ISL and IEEE 802.1Q"
+},
+{
+  "question": "What would happen if VLAN trunking was not used in a network with multiple VLANs?",
+  "options": [
+    "Switches would not be able to forward frames.",
+    "All VLANs would merge into a single broadcast domain.",
+    "Each VLAN would require a separate physical link.",
+    "Only one VLAN would be able to communicate."
+  ],
+  "correctOption": "Each VLAN would require a separate physical link."
+},
+{
+  "question": "What is the primary benefit of VLAN trunking in a network?",
+  "options": [
+    "It increases the number of broadcast domains in a network.",
+    "It eliminates the need for switches in a network.",
+    "It requires separate links for each VLAN.",
+    "It allows for multiple VLANs to share a single physical link."
+  ],
+  "correctOption": "It allows for multiple VLANs to share a single physical link."
+},
+{
+  "question": "Why is VLAN trunking important for network scalability?",
+  "options": [
+    "It eliminates the need for routing between VLANs.",
+    "It allows for unlimited VLANs without additional hardware.",
+    "It reduces the number of required switch ports.",
+    "It simplifies the configuration of network devices."
+  ],
+  "correctOption": "It allows for unlimited VLANs without additional hardware."
+},
+{
+  "question": "What is a key characteristic of VLAN traffic on a trunk link?",
+  "options": [
+    "VLAN traffic is only forwarded to the default VLAN.",
+    "VLAN traffic is not forwarded over trunk links.",
+    "VLAN traffic is kept separate based on VLAN IDs.",
+    "All VLAN traffic is combined into one stream."
+  ],
+  "correctOption": "VLAN traffic is kept separate based on VLAN IDs."
+},
+{
+  "question": "Which of the following statements accurately describes the role of VLAN IDs in a trunked network?",
+  "options": [
+    "VLAN IDs are used to identify the physical location of devices.",
+    "VLAN IDs are used to combine multiple VLANs into one.",
+    "VLAN IDs are irrelevant in a trunked network.",
+    "VLAN IDs help switches forward frames only to the correct VLAN."
+  ],
+  "correctOption": "VLAN IDs help switches forward frames only to the correct VLAN."
+},
+{
+  "question": "How does a switch identify which VLAN a frame belongs to when using trunking?",
+  "options": [
+    "By analyzing the frame size.",
+    "By using the IP address of the sender.",
+    "By adding a VLAN header that includes the VLAN ID.",
+    "By checking the MAC address of the frame."
+  ],
+  "correctOption": "By adding a VLAN header that includes the VLAN ID."
+},
+{
+  "question": "What happens to a VLAN header when a switch forwards a frame?",
+  "options": [
+    "It is kept for future reference.",
+    "It is removed before the frame is sent out.",
+    "It is modified to include the destination MAC address.",
+    "It is added to the frame again."
+  ],
+  "correctOption": "It is removed before the frame is sent out."
+},
+{
+  "question": "In a trunked network, how does SW2 handle received frames addressed to VLAN 20?",
+  "options": [
+    "It drops the frame entirely.",
+    "It sends the frame to VLAN 10 devices.",
+    "It forwards the frame only to ports in VLAN 20.",
+    "It floods the frame to all ports."
+  ],
+  "correctOption": "It forwards the frame only to ports in VLAN 20."
+},
+{
+  "question": "What is the purpose of the 802.1Q protocol in VLAN trunking?",
+  "options": [
+    "To increase the speed of data transmission.",
+    "To eliminate the need for VLANs in a network.",
+    "To add a VLAN header to Ethernet frames.",
+    "To create separate physical connections for each VLAN."
+  ],
+  "correctOption": "To add a VLAN header to Ethernet frames."
+},
+{
+  "question": ". Which two trunking protocols are supported by Cisco?",
+  "options": [
+    "ISL and 802.3",
+    "802.1Q and 802.3ad",
+    "ISL and IEEE 802.1Q",
+    "ISL and 802.1X"
+  ],
+  "correctOption": "ISL and IEEE 802.1Q"
+},
+{
+  "question": "What would happen if VLAN trunking was not used in a network with multiple VLANs?",
+  "options": [
+    "Switches would not be able to forward frames.",
+    "All VLANs would merge into a single broadcast domain.",
+    "Each VLAN would require a separate physical link.",
+    "Only one VLAN would be able to communicate."
+  ],
+  "correctOption": "Each VLAN would require a separate physical link."
+},
+{
+  "question": "What is the primary benefit of VLAN trunking in a network?",
+  "options": [
+    "It increases the number of broadcast domains in a network.",
+    "It eliminates the need for switches in a network.",
+    "It requires separate links for each VLAN.",
+    "It allows for multiple VLANs to share a single physical link."
+  ],
+  "correctOption": "It allows for multiple VLANs to share a single physical link."
+},
+{
+  "question": "Why is VLAN trunking important for network scalability?",
+  "options": [
+    "It eliminates the need for routing between VLANs.",
+    "It allows for unlimited VLANs without additional hardware.",
+    "It reduces the number of required switch ports.",
+    "It simplifies the configuration of network devices."
+  ],
+  "correctOption": "It allows for unlimited VLANs without additional hardware."
+},
+{
+  "question": "What is a key characteristic of VLAN traffic on a trunk link?",
+  "options": [
+    "VLAN traffic is only forwarded to the default VLAN.",
+    "VLAN traffic is not forwarded over trunk links.",
+    "VLAN traffic is kept separate based on VLAN IDs.",
+    "All VLAN traffic is combined into one stream."
+  ],
+  "correctOption": "VLAN traffic is kept separate based on VLAN IDs."
+},
+{
+  "question": "Which of the following statements accurately describes the role of VLAN IDs in a trunked network?",
+  "options": [
+    "VLAN IDs are used to identify the physical location of devices.",
+    "VLAN IDs are used to combine multiple VLANs into one.",
+    "VLAN IDs are irrelevant in a trunked network.",
+    "VLAN IDs help switches forward frames only to the correct VLAN."
+  ],
+  "correctOption": "VLAN IDs help switches forward frames only to the correct VLAN."
+},
+{
+  "question": "How does a switch identify which VLAN a frame belongs to when using trunking?",
+  "options": [
+    "By analyzing the frame size.",
+    "By using the IP address of the sender.",
+    "By adding a VLAN header that includes the VLAN ID.",
+    "By checking the MAC address of the frame."
+  ],
+  "correctOption": "By adding a VLAN header that includes the VLAN ID."
+},
+{
+  "question": "What happens to a VLAN header when a switch forwards a frame?",
+  "options": [
+    "It is kept for future reference.",
+    "It is removed before the frame is sent out.",
+    "It is modified to include the destination MAC address.",
+    "It is added to the frame again."
+  ],
+  "correctOption": "It is removed before the frame is sent out."
+},
+{
+  "question": "In a trunked network, how does SW2 handle received frames addressed to VLAN 20?",
+  "options": [
+    "It drops the frame entirely.",
+    "It sends the frame to VLAN 10 devices.",
+    "It forwards the frame only to ports in VLAN 20.",
+    "It floods the frame to all ports."
+  ],
+  "correctOption": "It forwards the frame only to ports in VLAN 20."
+},
+{
+  "question": "What is the purpose of the 802.1Q protocol in VLAN trunking?",
+  "options": [
+    "To increase the speed of data transmission.",
+    "To eliminate the need for VLANs in a network.",
+    "To add a VLAN header to Ethernet frames.",
+    "To create separate physical connections for each VLAN."
+  ],
+  "correctOption": "To add a VLAN header to Ethernet frames."
+},
+{
+  "question": "What would happen if VLAN trunking was not used in a network with multiple VLANs?",
+  "options": [
+    "Switches would not be able to forward frames.",
+    "All VLANs would merge into a single broadcast domain.",
+    "Each VLAN would require a separate physical link.",
+    "Only one VLAN would be able to communicate."
+  ],
+  "correctOption": "Each VLAN would require a separate physical link."
+},
+{
+  "question": "What is the primary benefit of VLAN trunking in a network?",
+  "options": [
+    "It increases the number of broadcast domains in a network.",
+    "It eliminates the need for switches in a network.",
+    "It requires separate links for each VLAN.",
+    "It allows for multiple VLANs to share a single physical link."
+  ],
+  "correctOption": "It allows for multiple VLANs to share a single physical link."
+},
+{
+  "question": "Why is VLAN trunking important for network scalability?",
+  "options": [
+    "It eliminates the need for routing between VLANs.",
+    "It allows for unlimited VLANs without additional hardware.",
+    "It reduces the number of required switch ports.",
+    "It simplifies the configuration of network devices."
+  ],
+  "correctOption": "It allows for unlimited VLANs without additional hardware."
+},
+{
+  "question": "What is a key characteristic of VLAN traffic on a trunk link?",
+  "options": [
+    "VLAN traffic is only forwarded to the default VLAN.",
+    "VLAN traffic is not forwarded over trunk links.",
+    "VLAN traffic is kept separate based on VLAN IDs.",
+    "All VLAN traffic is combined into one stream."
+  ],
+  "correctOption": "VLAN traffic is kept separate based on VLAN IDs."
+},
+{
+  "question": "Which of the following statements accurately describes the role of VLAN IDs in a trunked network?",
+  "options": [
+    "VLAN IDs are used to identify the physical location of devices.",
+    "VLAN IDs are used to combine multiple VLANs into one.",
+    "VLAN IDs are irrelevant in a trunked network.",
+    "VLAN IDs help switches forward frames only to the correct VLAN."
+  ],
+  "correctOption": "VLAN IDs help switches forward frames only to the correct VLAN."
+},
+{
+  "question": "How does a switch identify which VLAN a frame belongs to when using trunking?",
+  "options": [
+    "By analyzing the frame size.",
+    "By using the IP address of the sender.",
+    "By adding a VLAN header that includes the VLAN ID.",
+    "By checking the MAC address of the frame."
+  ],
+  "correctOption": "By adding a VLAN header that includes the VLAN ID."
+},
+{
+  "question": "What happens to a VLAN header when a switch forwards a frame?",
+  "options": [
+    "It is kept for future reference.",
+    "It is removed before the frame is sent out.",
+    "It is modified to include the destination MAC address.",
+    "It is added to the frame again."
+  ],
+  "correctOption": "It is removed before the frame is sent out."
+},
+{
+  "question": "In a trunked network, how does SW2 handle received frames addressed to VLAN 20?",
+  "options": [
+    "It drops the frame entirely.",
+    "It sends the frame to VLAN 10 devices.",
+    "It forwards the frame only to ports in VLAN 20.",
+    "It floods the frame to all ports."
+  ],
+  "correctOption": "It forwards the frame only to ports in VLAN 20."
+},
+{
+  "question": "What is the purpose of the 802.1Q protocol in VLAN trunking?",
+  "options": [
+    "To increase the speed of data transmission.",
+    "To eliminate the need for VLANs in a network.",
+    "To add a VLAN header to Ethernet frames.",
+    "To create separate physical connections for each VLAN."
+  ],
+  "correctOption": "To add a VLAN header to Ethernet frames."
+},
+{
+  "question": ". Which two trunking protocols are supported by Cisco?",
+  "options": [
+    "ISL and 802.3",
+    "802.1Q and 802.3ad",
+    "ISL and IEEE 802.1Q",
+    "ISL and 802.1X"
+  ],
+  "correctOption": "ISL and IEEE 802.1Q"
+},
+{
+  "question": "Which VLAN trunking protocol was created first?",
+  "options": [
+    "802.1Q",
+    "ISL",
+    "VTP",
+    "EtherChannel"
+  ],
+  "correctOption": "ISL"
+},
+{
+  "question": "What is the primary difference between ISL and 802.1Q in terms of popularity?",
+  "options": [
+    "ISL is only used in legacy systems.",
+    "Both protocols are equally popular.",
+    "ISL is more widely used today.",
+    "802.1Q is more popular and widely supported."
+  ],
+  "correctOption": "802.1Q is more popular and widely supported."
+},
+{
+  "question": "What additional component does 802.1Q add to the Ethernet frame?",
+  "options": [
+    "A 4-byte VLAN header",
+    "A 6-byte MAC address",
+    "A 2-byte checksum",
+    "An 8-byte timestamp"
+  ],
+  "correctOption": "A 4-byte VLAN header"
+},
+{
+  "question": "What is the purpose of the 12-bit VLAN ID field in the 802.1Q header?",
+  "options": [
+    "To provide error correction",
+    "To indicate the frame type",
+    "To specify the VLAN to which the frame belongs",
+    "To identify the source MAC address"
+  ],
+  "correctOption": "To specify the VLAN to which the frame belongs"
+},
+{
+  "question": "What is the maximum number of VLANs that can be supported by the 802.1Q header in practice?",
+  "options": [
+    "1005",
+    "4094",
+    "2048",
+    "4096"
+  ],
+  "correctOption": "4094"
+},
+{
+  "question": "Which range of VLAN IDs is considered the normal range according to Cisco switches?",
+  "options": [
+    "1 to 1005",
+    "1006 to 4094",
+    "1 to 4094",
+    "1 to 2000"
+  ],
+  "correctOption": "1 to 1005"
+},
+{
+  "question": "What determines whether a switch can use extended-range VLANs?",
+  "options": [
+    "The switch's hardware capabilities",
+    "The VLAN Trunking Protocol (VTP) configuration",
+    "The number of connected devices",
+    "The type of Ethernet cable used"
+  ],
+  "correctOption": "The VLAN Trunking Protocol (VTP) configuration"
+},
+{
+  "question": "Which of the following statements is true regarding the VLAN Trunking Protocol (VTP)?",
+  "options": [
+    "VTP is not related to VLANs.",
+    "VTP only supports normal-range VLANs.",
+    "VTP helps manage VLAN configurations across switches.",
+    "VTP is a proprietary protocol that is not widely used."
+  ],
+  "correctOption": "VTP helps manage VLAN configurations across switches."
+},
+{
+  "question": "What is the default VLAN ID for the native VLAN in 802.1Q?",
+  "options": [
+    "VLAN 5",
+    "VLAN 100",
+    "VLAN 1",
+    "VLAN 10"
+  ],
+  "correctOption": "VLAN 1"
+},
+{
+  "question": ". How does 802.1Q handle frames in the native VLAN?",
+  "options": [
+    "It compresses the frames.",
+    "It adds an 802.1Q header.",
+    "It encrypts the frames.",
+    "It does not add an 802.1Q header."
+  ],
+  "correctOption": "It does not add an 802.1Q header."
+},
+{
+  "question": "What is the primary function of a Layer 2 switch in a network?",
+  "options": [
+    "To route packets between different subnets",
+    "To forward Ethernet frames based on the destination MAC address",
+    "To separate traffic between different VLANs",
+    "To perform Layer 3 routing functions"
+  ],
+  "correctOption": "To forward Ethernet frames based on the destination MAC address"
+},
+{
+  "question": "What is the primary role of a Layer 2 switch in a VLAN?",
+  "options": [
+    "To route packets between different VLANs",
+    "To forward frames based on MAC addresses within the same VLAN",
+    "To separate different VLANs from each other",
+    "To manage IP address assignments"
+  ],
+  "correctOption": "To forward frames based on MAC addresses within the same VLAN"
+},
+{
+  "question": "Which statement accurately describes VLANs?",
+  "options": [
+    "VLANs separate traffic, preventing frames from leaking between them",
+    "VLANs allow devices in different subnets to communicate directly",
+    "VLANs require all devices to be in different subnets",
+    "VLANs can only be configured on Layer 3 switches"
+  ],
+  "correctOption": "VLANs separate traffic, preventing frames from leaking between them"
+},
+{
+  "question": "What happens when a Layer 2 switch port receives a frame destined for a different VLAN?",
+  "options": [
+    "It forwards the frame to the other VLAN",
+    "It broadcasts the frame to all VLANs",
+    "It drops the frame",
+    "It sends the frame to the router for processing"
+  ],
+  "correctOption": "It drops the frame"
+},
+{
+  "question": "How do Layer 2 switches handle data forwarding between VLANs?",
+  "options": [
+    "They require a hub to forward frames between VLANs",
+    "They route packets between VLANs using IP addresses",
+    "They do not forward frames between different VLANs",
+    "They forward frames between VLANs using MAC addresses"
+  ],
+  "correctOption": "They do not forward frames between different VLANs"
+},
+{
+  "question": "Which of the following statements about devices in a VLAN is true?",
+  "options": [
+    "Devices in a VLAN can be in different subnets",
+    "Devices in a VLAN must be in the same subnet",
+    "Devices in a VLAN can communicate with devices in any other VLAN",
+    "Devices in a VLAN require a router to communicate with each other"
+  ],
+  "correctOption": "Devices in a VLAN must be in the same subnet"
+},
+{
+  "question": "Which of the following statements is true regarding devices in different VLANs?",
+  "options": [
+    "They need to be in different subnets",
+    "They must be in the same subnet",
+    "They can share the same MAC address",
+    "They can communicate directly without a router"
+  ],
+  "correctOption": "They need to be in different subnets"
+},
+{
+  "question": "What is required to forward packets between different VLANs?",
+  "options": [
+    "A Layer 2 switch",
+    "A router or a multilayer switch",
+    "A hub",
+    "A firewall"
+  ],
+  "correctOption": "A router or a multilayer switch"
+},
+{
+  "question": "What distinguishes a multilayer switch from a Layer 2 switch?",
+  "options": [
+    "A multilayer switch can only forward frames within a VLAN",
+    "A multilayer switch operates at the physical layer",
+    "A multilayer switch can perform basic Layer 3 routing functions",
+    "A multilayer switch does not support VLANs"
+  ],
+  "correctOption": "A multilayer switch can perform basic Layer 3 routing functions"
+},
+{
+  "question": ". In a network, how does a router function in relation to VLANs?",
+  "options": [
+    "It forwards frames within a VLAN",
+    "It routes packets between different VLANs",
+    "It connects devices in the same VLAN",
+    "It separates traffic within a VLAN"
+  ],
+  "correctOption": "It routes packets between different VLANs"
+},
+{
+  "question": "What is the primary function of a Layer 2 switch in a VLAN environment?",
+  "options": [
+    "To manage network security protocols",
+    "To route IP packets between different subnets",
+    "To forward Ethernet frames based on VLANs",
+    "To assign IP addresses to devices"
+  ],
+  "correctOption": "To forward Ethernet frames based on VLANs"
+},
+{
+  "question": "What is the role of a default router in a VLAN setup?",
+  "options": [
+    "To monitor network traffic",
+    "To manage VLAN configurations",
+    "To route IP packets between different VLANs",
+    "To assign VLAN IDs to devices"
+  ],
+  "correctOption": "To route IP packets between different VLANs"
+},
+{
+  "question": "Which of the following is a solution for routing packets between VLANs?",
+  "options": [
+    "Using a single Layer 2 switch",
+    "Implementing a router-on-a-stick configuration",
+    "Using only access interfaces",
+    "Disabling VLAN trunking"
+  ],
+  "correctOption": "Implementing a router-on-a-stick configuration"
+},
+{
+  "question": "Which of the following statements about VLAN trunking is true?",
+  "options": [
+    "Trunking requires no configuration",
+    "Trunking is used to isolate VLANs from each other",
+    "Trunking is only necessary for access interfaces",
+    "Trunking allows multiple VLANs to be carried over a single link"
+  ],
+  "correctOption": "Trunking allows multiple VLANs to be carried over a single link"
+},
+{
+  "question": "Which of the following statements is true regarding Cisco switches and VLANs?",
+  "options": [
+    "They require configuration to operate in a single VLAN",
+    "They do not require configuration to operate in a single VLAN",
+    "They can only support one VLAN at a time",
+    "They automatically configure VLANs based on traffic"
+  ],
+  "correctOption": "They do not require configuration to operate in a single VLAN"
+},
+{
+  "question": "What must be configured for a Cisco switch to support multiple VLANs?",
+  "options": [
+    "Only trunk interfaces need configuration",
+    "No configuration is needed; it works out of the box",
+    "Only access interfaces need configuration",
+    "Configuration is needed for VLANs"
+  ],
+  "correctOption": "Configuration is needed for VLANs"
+},
+{
+  "question": "In a VLAN configuration, what is the purpose of static access interfaces?",
+  "options": [
+    "To manage VLAN trunking",
+    "To allow dynamic IP address assignment",
+    "To connect multiple VLANs together",
+    "To assign devices to a specific VLAN"
+  ],
+  "correctOption": "To assign devices to a specific VLAN"
+},
+{
+  "question": "What happens if access interfaces are not assigned to a VLAN?",
+  "options": [
+    "The switch will create a new VLAN for them",
+    "The interfaces will be disabled",
+    "The switch will not forward frames in that VLAN",
+    "The switch will automatically assign them to the default VLAN"
+  ],
+  "correctOption": "The switch will not forward frames in that VLAN"
+},
+{
+  "question": "Which command is used to create a new VLAN in Cisco switch configuration mode?",
+  "options": [
+    "create vlan vlan-id",
+    "vlan vlan-id",
+    "add vlan vlan-id",
+    "set vlan vlan-id"
+  ],
+  "correctOption": "vlan vlan-id"
+},
+{
+  "question": "What command is used to enter interface configuration mode on a Cisco switch?",
+  "options": [
+    "show vlan brief",
+    "vlan id-number",
+    "switchport mode access",
+    "interface type number"
+  ],
+  "correctOption": "interface type number"
+},
+{
+  "question": "Which command specifies the VLAN number for an interface?",
+  "options": [
+    "interface vlan id",
+    "switchport access vlan id-number",
+    "switchport mode access",
+    "vlan configuration mode"
+  ],
+  "correctOption": "switchport access vlan id-number"
+},
+{
+  "question": "What is the purpose of the switchport mode access command?",
+  "options": [
+    "To display VLAN configurations",
+    "To make a port operate in access mode",
+    "To create a new VLAN",
+    "To delete an existing VLAN"
+  ],
+  "correctOption": "To make a port operate in access mode"
+},
+{
+  "question": "How many VLANs can be configured on a single switch?",
+  "options": [
+    "Only one VLAN",
+    "Up to 4096 VLANs",
+    "Only three VLANs",
+    "No VLANs can be configured"
+  ],
+  "correctOption": "Up to 4096 VLANs"
+},
+{
+  "question": "What is the first step in configuring a new VLAN on a Cisco switch?",
+  "options": [
+    "Use the show vlan brief command",
+    "Add VLAN commands for each VLAN",
+    "Assign interfaces to the VLAN",
+    "Set the switchport mode"
+  ],
+  "correctOption": "Add VLAN commands for each VLAN"
+},
+{
+  "question": "Which command is used to assign an interface to a specific VLAN?",
+  "options": [
+    "switchport access vlan id-number",
+    "vlan id-number",
+    "interface vlan id",
+    "switchport mode trunk"
+  ],
+  "correctOption": "switchport access vlan id-number"
+},
+{
+  "question": "What is the default VLAN setting for switch ports on a Cisco switch?",
+  "options": [
+    "VLAN ID 10",
+    "VLAN ID 0",
+    "VLAN ID 100",
+    "VLAN ID 1"
+  ],
+  "correctOption": "VLAN ID 1"
+},
+{
+  "question": "What does the show vlan brief command do?",
+  "options": [
+    "It creates a new VLAN.",
+    "It confirms the settings of VLANs.",
+    "It deletes existing VLANs.",
+    "It changes the VLAN ID."
+  ],
+  "correctOption": "It confirms the settings of VLANs."
+},
+{
+  "question": "Which VLANs cannot be deleted on a Cisco switch?",
+  "options": [
+    "VLAN 2000",
+    "VLAN 1",
+    "VLAN 1000",
+    "VLAN 1002-1005"
+  ],
+  "correctOption": "VLAN 1002-1005"
+},
+{
+  "question": ". Which of the following statements is true regarding VLAN 1?",
+  "options": [
+    "VLAN 1 is reserved for trunking only.",
+    "VLAN 1 is used as an access VLAN.",
+    "VLAN 1 can be deleted.",
+    "VLAN 1 cannot be used for any purpose."
+  ],
+  "correctOption": "VLAN 1 is used as an access VLAN."
+},
+{
+  "question": "What is the default VLAN on a network switch?",
+  "options": [
+    "VLAN 2",
+    "VLAN 1",
+    "VLAN 100",
+    "VLAN 10"
+  ],
+  "correctOption": "VLAN 1"
+},
+{
+  "question": "What does the 'show vlan brief' command display?",
+  "options": [
+    "The configuration of all switch ports",
+    "The operational status of VLANs",
+    "The IP addresses assigned to VLANs",
+    "The routing table of the switch"
+  ],
+  "correctOption": "The operational status of VLANs"
+},
+{
+  "question": "Which command would you use to confirm the operational status of VLAN 2?",
+  "options": [
+    "show vlan brief",
+    "switchport access vlan 2",
+    "show running-config",
+    "show vlan id 2"
+  ],
+  "correctOption": "show vlan id 2"
+},
+{
+  "question": "What is the purpose of the 'show running-config' command?",
+  "options": [
+    "To configure new VLANs",
+    "To show the status of all switch ports",
+    "To display the current VLAN assignments",
+    "To list the configuration currently used by the switch"
+  ],
+  "correctOption": "To list the configuration currently used by the switch"
+},
+{
+  "question": "How can VLANs be configured on a switch?",
+  "options": [
+    "Using the 'vlan' command followed by the VLAN ID",
+    "Using the 'interface' command only",
+    "Through the 'show running-config' command",
+    "By assigning IP addresses to each VLAN"
+  ],
+  "correctOption": "Using the 'vlan' command followed by the VLAN ID"
+},
+{
+  "question": "Which command is used to assign a port to a specific VLAN?",
+  "options": [
+    "show vlan id 2",
+    "vlan 2",
+    "switchport access vlan 2",
+    "switchport mode trunk"
+  ],
+  "correctOption": "switchport access vlan 2"
+},
+{
+  "question": "What does the 'switchport mode access' command do?",
+  "options": [
+    "Configures a port to act as a trunk port",
+    "Disables VLAN tagging on the port",
+    "Sets the port to always act as an access port",
+    "Enables Dynamic Trunking Protocol on the port"
+  ],
+  "correctOption": "Sets the port to always act as an access port"
+},
+{
+  "question": "What happens to Dynamic Trunking Protocol (DTP) when a port is set to access mode?",
+  "options": [
+    "It is enabled by default",
+    "It is disabled",
+    "It operates in trunk mode",
+    "It requires manual configuration"
+  ],
+  "correctOption": "It is disabled"
+},
+{
+  "question": "What command is used to configure a switch to add a port to a specific VLAN as an access port?",
+  "options": [
+    "interface <interface-id>",
+    "switchport mode access",
+    "switchport access vlan <vlan-id>",
+    "vlan <vlan-id>"
+  ],
+  "correctOption": "switchport access vlan <vlan-id>"
+},
+{
+  "question": "What happens when a switch references a VLAN that has not been configured yet?",
+  "options": [
+    "The switch will ignore the command.",
+    "The switch will create the VLAN automatically.",
+    "The switch will generate an error message.",
+    "The switch will require a reboot to recognize the VLAN."
+  ],
+  "correctOption": "The switch will create the VLAN automatically."
+},
+{
+  "question": "What is the default name assigned to a newly created VLAN on a Cisco switch?",
+  "options": [
+    "VLAN_DEFAULT",
+    "VLAN_NEW",
+    "VLAN0001",
+    "VLAN0003"
+  ],
+  "correctOption": "VLAN0003"
+},
+{
+  "question": "Which command would you use to verify the VLAN configurations on a switch?",
+  "options": [
+    "list vlan details",
+    "show vlan brief",
+    "display vlan configuration",
+    "show vlan status"
+  ],
+  "correctOption": "show vlan brief"
+},
+{
+  "question": "What is the primary function of the VLAN Trunking Protocol (VTP)?",
+  "options": [
+    "To create VLANs dynamically across switches.",
+    "To disable VLANs on a switch.",
+    "To manage VLAN configurations across multiple switches.",
+    "To monitor VLAN traffic."
+  ],
+  "correctOption": "To manage VLAN configurations across multiple switches."
+},
+{
+  "question": "Why might enterprises choose to disable VTP in their networks?",
+  "options": [
+    "To comply with industry regulations.",
+    "To enhance the performance of the switches.",
+    "To prevent unintended changes to VLAN configurations.",
+    "To reduce the complexity of the network."
+  ],
+  "correctOption": "To prevent unintended changes to VLAN configurations."
+},
+{
+  "question": "What is a common reason for disabling VTP in a lab environment?",
+  "options": [
+    "To ensure all VLANs are manually configured.",
+    "To prevent VTP from affecting switch configurations.",
+    "To simplify the VLAN management process.",
+    "To comply with testing protocols."
+  ],
+  "correctOption": "To prevent VTP from affecting switch configurations."
+},
+{
+  "question": "Which of the following statements is true regarding VTP's impact on Cisco Catalyst switches?",
+  "options": [
+    "VTP has a significant impact on switch performance.",
+    "VTP is required for all switch configurations.",
+    "VTP has a small impact on switch operations.",
+    "VTP has no impact on how switches operate."
+  ],
+  "correctOption": "VTP has a small impact on switch operations."
+},
+{
+  "question": "Which mode can be used to disable VTP on a switch?",
+  "options": [
+    "Routing mode",
+    "Access mode",
+    "Dynamic mode",
+    "Transparent mode"
+  ],
+  "correctOption": "Transparent mode"
+},
+{
+  "question": "What is the effect of setting a switch to off mode in relation to VTP?",
+  "options": [
+    "It automatically configures trunking settings",
+    "It allows VLAN configuration",
+    "It prevents VTP from learning and advertising VLANs",
+    "It enables dynamic VLAN negotiation"
+  ],
+  "correctOption": "It prevents VTP from learning and advertising VLANs"
+},
+{
+  "question": "In which mode do switches list VLAN configuration commands in the running-config file?",
+  "options": [
+    "Server mode",
+    "Dynamic mode",
+    "Client mode",
+    "Transparent mode"
+  ],
+  "correctOption": "Transparent mode"
+},
+{
+  "question": "What happens when a switch is configured in server mode regarding VLANs?",
+  "options": [
+    "It cannot learn VLANs",
+    "It automatically deletes VLANs",
+    "It can configure VLANs in the extended range",
+    "It can configure VLANs in the standard range only"
+  ],
+  "correctOption": "It can configure VLANs in the standard range only"
+},
+{
+  "question": "Which of the following statements is true regarding client switches in a VTP environment?",
+  "options": [
+    "They can operate independently of VTP",
+    "They can configure VLANs",
+    "They can learn new VLANs from server switches",
+    "They can delete VLANs from the network"
+  ],
+  "correctOption": "They can learn new VLANs from server switches"
+},
+{
+  "question": "What command would you use to check the current VTP status on a switch?",
+  "options": [
+    "show running-config",
+    "show vtp status",
+    "show interfaces",
+    "show vlan"
+  ],
+  "correctOption": "show vtp status"
+},
+{
+  "question": "What is a consequence of using the show running-config command on a switch in server mode?",
+  "options": [
+    "It displays trunking settings",
+    "It does not list any VLAN commands",
+    "It shows the VTP version",
+    "It lists all VLAN configurations"
+  ],
+  "correctOption": "It does not list any VLAN commands"
+},
+{
+  "question": "What should you do before changing VTP settings on a switch connected to a production network?",
+  "options": [
+    "Ignore the current configuration",
+    "Ask an experienced colleague for advice",
+    "Change the settings immediately",
+    "Consult the network documentation"
+  ],
+  "correctOption": "Ask an experienced colleague for advice"
+},
+{
+  "question": "What potential risk is associated with changing VTP settings on a production network?",
+  "options": [
+    "It can improve network performance",
+    "It can simplify network management",
+    "It can cause accidental changes to VLAN configurations",
+    "It can enhance security"
+  ],
+  "correctOption": "It can cause accidental changes to VLAN configurations"
+},
+{
+  "question": "What is the primary function of the Dynamic Trunking Protocol (DTP) in Cisco switches?",
+  "options": [
+    "To monitor network traffic for security purposes",
+    "To manage VLAN assignments on access ports",
+    "To configure static IP addresses on switches",
+    "To negotiate trunking protocols between switches"
+  ],
+  "correctOption": "To negotiate trunking protocols between switches"
+},
+{
+  "question": "Which trunking protocol is commonly used by Cisco switches that do not support ISL?",
+  "options": [
+    "DTP",
+    "ISL",
+    "VTP",
+    "802.1Q"
+  ],
+  "correctOption": "802.1Q"
+},
+{
+  "question": "Which command allows a switch to negotiate the trunking type with another switch?",
+  "options": [
+    "switchport mode access",
+    "switchport trunk mode",
+    "switchport mode dynamic auto",
+    "switchport trunk encapsulation negotiate"
+  ],
+  "correctOption": "switchport trunk encapsulation negotiate"
+},
+{
+  "question": "What does the command 'switchport trunk encapsulation dot1q' do?",
+  "options": [
+    "It configures the switch as an access port.",
+    "It initiates DTP negotiation.",
+    "It sets the trunking protocol to 802.1Q.",
+    "It disables trunking on the interface."
+  ],
+  "correctOption": "It sets the trunking protocol to 802.1Q."
+},
+{
+  "question": "What does the operational mode of a switch interface indicate?",
+  "options": [
+    "The configuration settings for trunking",
+    "The current state of the interface",
+    "The type of trunking protocol being used",
+    "The VLAN assignments on the interface"
+  ],
+  "correctOption": "The current state of the interface"
+},
+{
+  "question": "Which command is used to define the administrative trunking mode on Cisco switches?",
+  "options": [
+    "switchport trunk mode",
+    "switchport mode interface",
+    "switchport mode",
+    "switchport trunk encapsulation"
+  ],
+  "correctOption": "switchport mode"
+},
+{
+  "question": "If a switch is configured in 'access' mode, what will be its behavior regarding trunking?",
+  "options": [
+    "It will always act as a trunk port.",
+    "It will initiate trunk negotiation.",
+    "It will not participate in trunking.",
+    "It will negotiate the trunking protocol automatically."
+  ],
+  "correctOption": "It will not participate in trunking."
+},
+{
+  "question": "What is the role of the 'dynamic desirable' mode in trunking?",
+  "options": [
+    "It disables trunking completely.",
+    "It passively waits for trunk negotiation messages.",
+    "It initiates trunk negotiation and responds to messages.",
+    "It always acts as a trunk port."
+  ],
+  "correctOption": "It initiates trunk negotiation and responds to messages."
+},
+{
+  "question": "What happens if both switches are set to dynamic auto mode?",
+  "options": [
+    "They will only negotiate if one switch is set to trunk mode.",
+    "They will always use ISL as the trunking protocol.",
+    "They will not initiate trunk negotiation.",
+    "They will initiate trunk negotiation automatically."
+  ],
+  "correctOption": "They will not initiate trunk negotiation."
+},
+{
+  "question": ". What is the result of changing one switch to 'dynamic desirable' mode while the other remains in 'dynamic auto' mode?",
+  "options": [
+    "The trunk will not form.",
+    "The switches will use ISL as the trunking protocol.",
+    "The switches will default to access mode.",
+    "The switches will negotiate to use trunking."
+  ],
+  "correctOption": "The switches will negotiate to use trunking."
+},
+{
+  "question": "Which of the following statements is true regarding the default trunking behavior of switches?",
+  "options": [
+    "Switches always operate in trunk mode.",
+    "Switches require manual configuration to disable trunking.",
+    "Switches trunk by default.",
+    "Two switches do not trunk by default."
+  ],
+  "correctOption": "Two switches do not trunk by default."
+},
+{
+  "question": "What is the purpose of the command 'show interfaces gigabit 0/1 switchport'?",
+  "options": [
+    "To provide detailed information about the switchport.",
+    "To display the VLAN configuration.",
+    "To enable trunking on the switch.",
+    "To reset the switchport settings."
+  ],
+  "correctOption": "To provide detailed information about the switchport."
+},
+{
+  "question": "What is the default administrative mode setting for a switch?",
+  "options": [
+    "dynamic desirable",
+    "dynamic auto",
+    "static access",
+    "trunk"
+  ],
+  "correctOption": "dynamic auto"
+},
+{
+  "question": "What does the operational status 'access' indicate about a switch's configuration?",
+  "options": [
+    "The switch is configured for trunking.",
+    "The switch is not trunking.",
+    "The switch is in native VLAN mode.",
+    "The switch is in dynamic auto mode."
+  ],
+  "correctOption": "The switch is not trunking."
+},
+{
+  "question": "What type of trunking is supported by Cisco switches?",
+  "options": [
+    "802.1D",
+    "VLAN Trunking Protocol",
+    "802.1Q",
+    "ISL"
+  ],
+  "correctOption": "802.1Q"
+},
+{
+  "question": "What is indicated by the operational trunking type being listed as 'native'?",
+  "options": [
+    "The switch supports multiple VLANs.",
+    "The switch is in access mode.",
+    "It refers to the 802.1Q native VLAN.",
+    "The switch is configured for dynamic auto."
+  ],
+  "correctOption": "It refers to the 802.1Q native VLAN."
+},
+{
+  "question": "What does the command 'show interfaces trunk' indicate if no interfaces are listed?",
+  "options": [
+    "The link is configured for trunking.",
+    "The switch is rebooting.",
+    "The link is not trunking.",
+    "The switch is in access mode."
+  ],
+  "correctOption": "The link is not trunking."
+},
+{
+  "question": "Which command is used to enable trunking on a switch?",
+  "options": [
+    "switchport mode access",
+    "switchport mode dynamic auto",
+    "switchport trunk allowed vlan",
+    "switchport mode dynamic desirable"
+  ],
+  "correctOption": "switchport mode dynamic desirable"
+},
+{
+  "question": "What happens to the interface when it transitions from access mode to trunk mode?",
+  "options": [
+    "The interface goes down and then back up.",
+    "The interface changes to static access mode.",
+    "The interface remains active.",
+    "The interface is disabled permanently."
+  ],
+  "correctOption": "The interface goes down and then back up."
+},
+{
+  "question": ". What do log messages indicate when a switch interface transitions to trunk mode?",
+  "options": [
+    "The interface remains in dynamic auto mode.",
+    "The interface changes to static access mode.",
+    "The interface goes down and then back up.",
+    "The interface is permanently disabled."
+  ],
+  "correctOption": "The interface goes down and then back up."
+},
+{
+  "question": "Which command would you use to verify the trunking status of a specific interface?",
+  "options": [
+    "show ip interface brief",
+    "show interfaces trunk",
+    "show interfaces switchport",
+    "show vlan"
+  ],
+  "correctOption": "show interfaces trunk"
+},
+{
+  "question": "What information does the 'show interfaces trunk' command provide regarding VLANs?",
+  "options": [
+    "It indicates the number of VLANs configured.",
+    "It lists the active VLANs on the switch.",
+    "It shows the allowed VLANs on the trunk.",
+    "It displays the configuration of each VLAN."
+  ],
+  "correctOption": "It shows the allowed VLANs on the trunk."
+},
+{
+  "question": "What is the significance of the native VLAN in trunking configurations?",
+  "options": [
+    "It is the VLAN that is not tagged on the trunk.",
+    "It is the VLAN used for management purposes.",
+    "It is the VLAN that cannot be changed.",
+    "It is the VLAN that carries all traffic."
+  ],
+  "correctOption": "It is the VLAN that is not tagged on the trunk."
+},
+{
+  "question": "What does the command 'show interfaces switchport' reveal about the operational state of a switchport?",
+  "options": [
+    "It lists the connected devices.",
+    "It shows the current traffic load on the port.",
+    "It indicates the administrative mode of the port.",
+    "It provides the MAC address of the port."
+  ],
+  "correctOption": "It indicates the administrative mode of the port."
+},
+{
+  "question": "What does the term 'dynamic desirable' indicate in the context of switchport configuration?",
+  "options": [
+    "The port is set to automatically detect VLANs.",
+    "The port is configured to block all traffic.",
+    "The port will actively attempt to negotiate trunking.",
+    "The port will always be in access mode."
+  ],
+  "correctOption": "The port will actively attempt to negotiate trunking."
+},
+{
+  "question": "Which of the following combinations of administrative modes would result in an operational mode of trunk?",
+  "options": [
+    "Dynamic Desirable and Dynamic Desirable",
+    "Access and Trunk",
+    "Dynamic Desirable and Access",
+    "Access and Access"
+  ],
+  "correctOption": "Dynamic Desirable and Dynamic Desirable"
+},
+{
+  "question": "If a switchport is configured as access, what will its operational mode be?",
+  "options": [
+    "Dynamic Desirable",
+    "Dynamic Auto",
+    "Trunk",
+    "Access"
+  ],
+  "correctOption": "Access"
+},
+{
+  "question": "What significant change occurred in cabling due to the migration to IP phones?",
+  "options": [
+    "Telephone cabling is no longer needed.",
+    "All devices now use fiber optic cables.",
+    "PCs and phones now connect using the same cable.",
+    "Only wireless connections are used."
+  ],
+  "correctOption": "PCs and phones now connect using the same cable."
+},
+{
+  "question": "What is a potential issue when one switch is configured in access mode and another in trunk mode?",
+  "options": [
+    "It can cause problems in network connectivity.",
+    "It can lead to improved network performance.",
+    "It enhances security measures.",
+    "It simplifies the configuration process."
+  ],
+  "correctOption": "It can cause problems in network connectivity."
+},
+{
+  "question": "Why does Cisco recommend disabling trunk negotiation on most ports?",
+  "options": [
+    "To enhance security by preventing unauthorized access.",
+    "To allow for automatic configuration of trunk ports.",
+    "To simplify the network topology.",
+    "To improve the speed of data transmission."
+  ],
+  "correctOption": "To enhance security by preventing unauthorized access."
+},
+{
+  "question": "Which command is typically used to configure switch ports for user connection?",
+  "options": [
+    "switchport mode trunk",
+    "switchport mode access",
+    "switchport nonegotiate",
+    "switchport enable"
+  ],
+  "correctOption": "switchport mode access"
+},
+{
+  "question": "What command can be used to disable DTP negotiations on a switch port?",
+  "options": [
+    "switchport mode access",
+    "switchport disable",
+    "switchport nonegotiate",
+    "switchport mode trunk"
+  ],
+  "correctOption": "switchport nonegotiate"
+},
+{
+  "question": "What does DTP stand for in the context of switch ports?",
+  "options": [
+    "Data Transfer Protocol",
+    "Dynamic Trunking Protocol",
+    "Data Trunking Procedure",
+    "Dynamic Transmission Process"
+  ],
+  "correctOption": "Dynamic Trunking Protocol"
+},
+{
+  "question": "In IP telephony, how do switch ports function?",
+  "options": [
+    "They only act as access ports.",
+    "They are exclusively trunk ports.",
+    "They can act like both access and trunk ports.",
+    "They do not connect to any devices."
+  ],
+  "correctOption": "They can act like both access and trunk ports."
+},
+{
+  "question": "What is the primary function of Data VLAN in IP telephony?",
+  "options": [
+    "To separate voice traffic from data traffic.",
+    "To simplify the network configuration.",
+    "To connect multiple devices to a single port.",
+    "To enhance the speed of data transmission."
+  ],
+  "correctOption": "To separate voice traffic from data traffic."
+},
+{
+  "question": "How do new IP phones connect to the network?",
+  "options": [
+    "Using Bluetooth technology.",
+    "Using fiber optic connections exclusively.",
+    "Using Ethernet or Wi-Fi.",
+    "Using only traditional telephone lines."
+  ],
+  "correctOption": "Using Ethernet or Wi-Fi."
+},
+{
+  "question": ". What problem arose from the migration to IP phones in some offices?",
+  "options": [
+    "Compatibility issues with existing cabling.",
+    "Enhanced security protocols.",
+    "Increased network speed.",
+    "Simplified user access."
+  ],
+  "correctOption": "Compatibility issues with existing cabling."
+},
+{
+  "question": "Why would installing a new cable to every desk be impractical?",
+  "options": [
+    "It would require more switch ports and increase costs.",
+    "It would improve network speed significantly.",
+    "It would reduce the number of devices connected to the network.",
+    "It would simplify the configuration of the network."
+  ],
+  "correctOption": "It would require more switch ports and increase costs."
+},
+{
+  "question": "What problem did Cisco aim to solve with the implementation of small switches in IP phones?",
+  "options": [
+    "To enhance the audio quality of phone calls.",
+    "To increase the number of devices that can connect to a single switch.",
+    "To simplify the installation of desktop computers.",
+    "To reduce the number of cables needed at each desk."
+  ],
+  "correctOption": "To reduce the number of cables needed at each desk."
+},
+{
+  "question": "What is the role of the small three-port switches embedded in each IP phone?",
+  "options": [
+    "To provide power to the phone through the network cable.",
+    "To allow both a PC and a phone to share a single cable.",
+    "To connect multiple phones to a single network port.",
+    "To enhance the security of the phone's network connection."
+  ],
+  "correctOption": "To allow both a PC and a phone to share a single cable."
+},
+{
+  "question": "How does the cabling setup for IP telephony typically function?",
+  "options": [
+    "It uses a wiring closet cable to connect the phone and PC to an embedded switch.",
+    "It connects the phone directly to the internet without a switch.",
+    "It connects the phone to a wireless network instead of a wired one.",
+    "It requires separate cables for each device to function properly."
+  ],
+  "correctOption": "It uses a wiring closet cable to connect the phone and PC to an embedded switch."
+},
+{
+  "question": "What is the typical setup for devices at sites using IP telephony?",
+  "options": [
+    "One device per access port.",
+    "Only phones connected to the network.",
+    "Two devices off each access port.",
+    "Multiple devices connected wirelessly."
+  ],
+  "correctOption": "Two devices off each access port."
+},
+{
+  "question": "What is a common practice for VLAN configuration in IP telephony according to Cisco?",
+  "options": [
+    "To combine voice and data traffic in the same VLAN.",
+    "To create a dedicated VLAN for each individual device.",
+    "To separate phones and PCs into different VLANs.",
+    "To use a single VLAN for all devices to simplify management."
+  ],
+  "correctOption": "To separate phones and PCs into different VLANs."
+},
+{
+  "question": "How does the switch port function in relation to PC and phone traffic?",
+  "options": [
+    "It acts solely as a trunk for both types of traffic.",
+    "It only supports voice traffic.",
+    "It does not differentiate between PC and phone traffic.",
+    "It functions as an access link for PC traffic and a trunk for phone traffic."
+  ],
+  "correctOption": "It functions as an access link for PC traffic and a trunk for phone traffic."
+},
+{
+  "question": "What does the switch port configuration for IP phones typically define?",
+  "options": [
+    "A single VLAN for both data and voice traffic.",
+    "A separate VLAN for each individual phone.",
+    "Two VLANs: one for data and another for voice.",
+    "No VLANs, as all traffic is treated equally."
+  ],
+  "correctOption": "Two VLANs: one for data and another for voice."
+},
+{
+  "question": "In the context of IP telephony, what does the term 'Voice VLAN' refer to?",
+  "options": [
+    "A VLAN used exclusively for data traffic.",
+    "A VLAN designated for forwarding phone traffic.",
+    "A VLAN that connects only to wireless devices.",
+    "A VLAN that is not used in modern networks."
+  ],
+  "correctOption": "A VLAN designated for forwarding phone traffic."
+},
+{
+  "question": ". What is typically included in the traffic of the Voice VLAN?",
+  "options": [
+    "Traffic that is only for video conferencing.",
+    "Unencrypted data packets.",
+    "Traffic that is not prioritized.",
+    "Traffic tagged with an 802.1Q header."
+  ],
+  "correctOption": "Traffic tagged with an 802.1Q header."
+},
+{
+  "question": "Which command must be enabled on an interface for a voice access port to work with Cisco IP phones?",
+  "options": [
+    "switchport access vlan id-number",
+    "cdp run",
+    "vlan vlan-id",
+    "switchport mode trunk"
+  ],
+  "correctOption": "cdp run"
+},
+{
+  "question": "What is the default behavior of CDP on Cisco switches?",
+  "options": [
+    "CDP must be manually enabled.",
+    "CDP only works on trunk ports.",
+    "CDP is disabled by default.",
+    "CDP is enabled by default."
+  ],
+  "correctOption": "CDP is enabled by default."
+},
+{
+  "question": "What command is used to create a data VLAN on a Cisco switch?",
+  "options": [
+    "switchport voice vlan id-number",
+    "show interfaces switchport",
+    "switchport mode access",
+    "vlan vlan-id"
+  ],
+  "correctOption": "vlan vlan-id"
+},
+{
+  "question": "Which command is used to define the data VLAN on a switch port?",
+  "options": [
+    "show interfaces switchport",
+    "vlan vlan-id",
+    "switchport voice vlan id-number",
+    "switchport access vlan id-number"
+  ],
+  "correctOption": "switchport access vlan id-number"
+},
+{
+  "question": "What does the command 'switchport mode access' accomplish?",
+  "options": [
+    "It enables trunking on the port.",
+    "It sets the voice VLAN ID.",
+    "It creates a new VLAN.",
+    "It configures the port to operate in access mode."
+  ],
+  "correctOption": "It configures the port to operate in access mode."
+},
+{
+  "question": "Which command is used to define the voice VLAN on a port?",
+  "options": [
+    "switchport access vlan id-number",
+    "switchport voice vlan id-number",
+    "vlan vlan-id",
+    "switchport mode trunk"
+  ],
+  "correctOption": "switchport voice vlan id-number"
+},
+{
+  "question": "What is the purpose of the voice VLAN ID in the context of Cisco IP phones?",
+  "options": [
+    "To separate voice traffic from data traffic.",
+    "To increase the bandwidth of voice calls.",
+    "To enable trunking on the switch.",
+    "To configure the switch for wireless access."
+  ],
+  "correctOption": "To separate voice traffic from data traffic."
+},
+{
+  "question": "Which command provides details about the operation of an interface, including access ports?",
+  "options": [
+    "cdp neighbors",
+    "show vlan brief",
+    "show interfaces switchport",
+    "switchport mode access"
+  ],
+  "correctOption": "show interfaces switchport"
+},
+{
+  "question": "In the output of 'show interfaces switchport', which detail indicates the configuration of an access port?",
+  "options": [
+    "Access Mode VLAN: 10",
+    "Voice VLAN: 11",
+    "Negotiation of Trunking: On",
+    "Trunking Native Mode VLAN: 1"
+  ],
+  "correctOption": "Access Mode VLAN: 10"
+},
+{
+  "question": ". What is the command to verify the configuration of the data VLAN and voice VLAN on a specific interface?",
+  "options": [
+    "show vlan brief",
+    "cdp neighbors",
+    "show interfaces FastEthernet 0/4 switchport",
+    "switchport mode access"
+  ],
+  "correctOption": "show interfaces FastEthernet 0/4 switchport"
+},
+{
+  "question": "Which command is used to configure a voice VLAN on a switch?",
+  "options": [
+    "switchport mode trunk",
+    "switchport trunk allowed vlan 10,11",
+    "switchport voice vlan 11",
+    "switchport access vlan 10"
+  ],
+  "correctOption": "switchport voice vlan 11"
+},
+{
+  "question": "What does the 'show interfaces type number switchport' command indicate?",
+  "options": [
+    "The status of the IP telephony ports",
+    "The operational mode of the port",
+    "The VLANs allowed on the trunk",
+    "The configuration of the access VLAN"
+  ],
+  "correctOption": "The operational mode of the port"
+},
+{
+  "question": "What information does the 'show interfaces trunk' command provide?",
+  "options": [
+    "The status of IP telephony ports",
+    "The configuration of voice VLANs",
+    "The list of all access ports",
+    "The operational trunks on a switch"
+  ],
+  "correctOption": "The operational trunks on a switch"
+},
+{
+  "question": "What additional information does the 'show interfaces trunk' command provide when a specific interface is listed?",
+  "options": [
+    "The configuration of the access VLAN",
+    "The operational status of the switch",
+    "The list of all connected devices",
+    "The allowed VLANs on that interface"
+  ],
+  "correctOption": "The allowed VLANs on that interface"
+},
+{
+  "question": "What does the 'show interfaces F0/4 trunk' command indicate if it shows 'not-trunking'?",
+  "options": [
+    "The port is configured as a trunk port.",
+    "The port allows VLANs 10 and 11.",
+    "The port is disabled.",
+    "The port is only for voice traffic."
+  ],
+  "correctOption": "The port allows VLANs 10 and 11."
+},
+{
+  "question": "On an access port, what is typically listed in the 'VLANs allowed on the trunk' output?",
+  "options": [
+    "The voice VLANs configured",
+    "No VLANs are listed",
+    "Only the access VLAN",
+    "All VLANs configured on the switch"
+  ],
+  "correctOption": "Only the access VLAN"
+},
+{
+  "question": "What is the first step in configuring IP telephony ports on a switch?",
+  "options": [
+    "Enable trunking on the port",
+    "Configure it as a static access port",
+    "Set the port to dynamic mode",
+    "Assign a voice VLAN"
+  ],
+  "correctOption": "Configure it as a static access port"
+},
+{
+  "question": "Which command is used to define the voice VLAN ID?",
+  "options": [
+    "switchport mode access",
+    "switchport voice vlan vlan-id",
+    "switchport trunk allowed vlan",
+    "switchport access vlan"
+  ],
+  "correctOption": "switchport voice vlan vlan-id"
+},
+{
+  "question": "What is the first step an engineer should take to avoid VLAN issues?",
+  "options": [
+    "Confirm that all VLANs are both defined and active.",
+    "Ensure that all switches are operating as trunks.",
+    "Check the allowed VLAN lists on both ends of each trunk.",
+    "Disable any VLANs that are not in use."
+  ],
+  "correctOption": "Confirm that all VLANs are both defined and active."
+},
+{
+  "question": "What is the significance of matching native VLAN settings on both ends of a trunk?",
+  "options": [
+    "It ensures that VLAN traffic is properly tagged.",
+    "It allows for better security protocols.",
+    "It allows for faster data transfer rates.",
+    "It prevents VLANs from being deleted."
+  ],
+  "correctOption": "It ensures that VLAN traffic is properly tagged."
+},
+{
+  "question": "What is a potential issue with incorrect trunk configuration settings?",
+  "options": [
+    "It can cause one switch to operate as a trunk while the neighboring switch does not.",
+    "It will automatically configure all VLANs correctly.",
+    "It ensures all VLANs are active.",
+    "It prevents any VLANs from being created."
+  ],
+  "correctOption": "It can cause one switch to operate as a trunk while the neighboring switch does not."
+},
+{
+  "question": "Which of the following statements is true regarding Access VLANs that are undefined or disabled?",
+  "options": [
+    "They are automatically enabled when the switch starts.",
+    "They will forward frames normally.",
+    "They will not forward frames for VLANs that are not known or disabled.",
+    "They can be reactivated without any configuration."
+  ],
+  "correctOption": "They will not forward frames for VLANs that are not known or disabled."
+},
+{
+  "question": "How can a VLAN be defined to a switch?",
+  "options": [
+    "Through a software update.",
+    "Only by manual configuration on each switch.",
+    "By using the vlan number global configuration command or learned from another switch using VTP.",
+    "By connecting the switch to the internet."
+  ],
+  "correctOption": "By using the vlan number global configuration command or learned from another switch using VTP."
+},
+{
+  "question": "Which command can be used to check the status of a VLAN on a switch?",
+  "options": [
+    "show vlan",
+    "vlan status check",
+    "check vlan",
+    "show vlan status"
+  ],
+  "correctOption": "show vlan"
+},
+{
+  "question": "What command is used to enable a VLAN on a switch?",
+  "options": [
+    "activate vlan",
+    "vlan enable",
+    "no shutdown vlan number",
+    "enable vlan"
+  ],
+  "correctOption": "no shutdown vlan number"
+},
+{
+  "question": "What is the result of shutting down a VLAN on a switch?",
+  "options": [
+    "The VLAN will be deleted from the switch.",
+    "The VLAN will not forward frames on that switch only.",
+    "The VLAN will be disabled on all switches in the network.",
+    "The VLAN will automatically reactivate after a reboot."
+  ],
+  "correctOption": "The VLAN will not forward frames on that switch only."
+},
+{
+  "question": "What happens if a VLAN is in a shutdown state on a switch?",
+  "options": [
+    "The VLAN will be deleted from the switch.",
+    "The VLAN will automatically reactivate.",
+    "The switch will not forward frames in that VLAN.",
+    "The VLAN will forward frames normally."
+  ],
+  "correctOption": "The switch will not forward frames in that VLAN."
+},
+{
+  "question": ". What does the 'show vlan brief' command provide?",
+  "options": [
+    "Configuration settings for each VLAN.",
+    "Detailed logs of VLAN traffic.",
+    "Information about VLANs and their status.",
+    "A list of all active ports on the switch."
+  ],
+  "correctOption": "Information about VLANs and their status."
+},
+{
+  "question": "Which command is used to deactivate VLAN 20?",
+  "options": [
+    "shutdown vlan 1",
+    "switchport mode access vlan 20",
+    "shutdown vlan 20.",
+    "no shutdown vlan 20"
+  ],
+  "correctOption": "shutdown vlan 20."
+},
+{
+  "question": "What does the command 'no shutdown' do in VLAN configuration?",
+  "options": [
+    "It activates the VLAN .",
+    "It configures trunking mode.",
+    "It deactivates VLAN 20.",
+    "It creates a new VLAN."
+  ],
+  "correctOption": "It activates the VLAN ."
+},
+{
+  "question": "What is the meaning of 'act/unsup' for VLAN IDs 1002-1005?",
+  "options": [
+    "They are reserved and unsupported.",
+    "They are inactive and unsupported.",
+    "They are available for configuration.",
+    "They are active and supported."
+  ],
+  "correctOption": "They are reserved and unsupported."
+},
+{
+  "question": "What can result from incorrect trunking configurations?",
+  "options": [
+    "Both switches will always trunk.",
+    "One switch will automatically configure itself.",
+    "Both switches may not trunk.",
+    "Trunking will be enabled by default."
+  ],
+  "correctOption": "Both switches may not trunk."
+},
+{
+  "question": "What does the command 'switchport mode dynamic auto' do?",
+  "options": [
+    "It actively negotiates trunking.",
+    "It disables trunking.",
+    "It passively waits for negotiation.",
+    "It forces the switch to trunk."
+  ],
+  "correctOption": "It passively waits for negotiation."
+},
+{
+  "question": "What is the operational mode listed when a switch is set to static access?",
+  "options": [
+    "Dynamic auto",
+    "Dynamic desirable",
+    "Trunking",
+    "Static access"
+  ],
+  "correctOption": "Static access"
+},
+{
+  "question": "If one switch is configured to trunk and the other is not, what happens to tagged frames?",
+  "options": [
+    "They are converted to untagged frames.",
+    "They are forwarded successfully.",
+    "They are discarded by the non-trunking switch.",
+    "They are sent back to the trunking switch."
+  ],
+  "correctOption": "They are discarded by the non-trunking switch."
+},
+{
+  "question": "What happens to traffic in the native VLAN if trunking is misconfigured?",
+  "options": [
+    "It is tagged and forwarded.",
+    "It is blocked from crossing the link.",
+    "It is dropped by the switch.",
+    "It can cross the link successfully."
+  ],
+  "correctOption": "It can cross the link successfully."
+},
+{
+  "question": "What command can SW1 use to enable trunking while disabling DTP?",
+  "options": [
+    "switchport mode dynamic auto",
+    "switchport nonegotiate",
+    "switchport mode trunk",
+    "switchport access vlan 10"
+  ],
+  "correctOption": "switchport mode trunk"
+},
+{
+  "question": ". What can occur if SW1 has disabled DTP?",
+  "options": [
+    "SW2 will automatically trunk.",
+    "SW2's DTP negotiations will fail.",
+    "SW2 will enable DTP negotiations.",
+    "SW2 will configure itself as a trunk."
+  ],
+  "correctOption": "SW2's DTP negotiations will fail."
+},
+{
+  "question": "What happens to 802.1Q frames received on a port configured as an access port?",
+  "options": [
+    "They are discarded by the switch.",
+    "They are converted to a different format.",
+    "They are logged for review.",
+    "They are forwarded to the appropriate VLAN."
+  ],
+  "correctOption": "They are discarded by the switch."
+},
+{
+  "question": "What should you check to avoid trunking issues?",
+  "options": [
+    "The physical location of the switches.",
+    "The number of VLANs configured.",
+    "The configuration and operational state on both sides of the trunk.",
+    "The age of the switches."
+  ],
+  "correctOption": "The configuration and operational state on both sides of the trunk."
+},
+{
+  "question": "Which command is best for checking the operational state of trunking on a switch?",
+  "options": [
+    "show ip route",
+    "show mac address-table",
+    "show vlan",
+    "show interfaces trunk"
+  ],
+  "correctOption": "show interfaces trunk"
+},
+{
+  "question": "Why might a Cisco switch not forward traffic for a specific VLAN on a trunk port?",
+  "options": [
+    "The VLAN is inactive on the local switch.",
+    "The switch is in a power-saving mode.",
+    "The trunk port is configured as an access port.",
+    "The VLAN is not defined in the network."
+  ],
+  "correctOption": "The VLAN is inactive on the local switch."
+},
+{
+  "question": "What does the command 'show interfaces interface-id trunk' provide?",
+  "options": [
+    "Information about all VLANs configured on the switch.",
+    "Details about currently operational trunks.",
+    "Configuration settings for all access ports.",
+    "Statistics on traffic passing through the switch."
+  ],
+  "correctOption": "Details about currently operational trunks."
+},
+{
+  "question": "Which section of the 'show interfaces trunk' command output indicates which VLANs will be forwarded over the trunk?",
+  "options": [
+    "The middle section of the output.",
+    "The summary section of the output.",
+    "The last section of the output.",
+    "The first section of the output."
+  ],
+  "correctOption": "The last section of the output."
+},
+{
+  "question": "Which of the following is a reason to check the allowed VLAN list on a trunk?",
+  "options": [
+    "To check the bandwidth usage of the trunk.",
+    "To determine the physical location of the trunk.",
+    "To ensure all VLANs are active.",
+    "To verify that the VLANs are not removed from the allowed list."
+  ],
+  "correctOption": "To verify that the VLANs are not removed from the allowed list."
+},
+{
+  "question": "What must be true for a VLAN to be forwarded over a trunk?",
+  "options": [
+    "The VLAN must be configured on all switches in the network.",
+    "The VLAN must be the only VLAN on the trunk.",
+    "The VLAN must exist and be active on the local switch.",
+    "The VLAN must have a dedicated access port."
+  ],
+  "correctOption": "The VLAN must exist and be active on the local switch."
+},
+{
+  "question": "What is the consequence of a VLAN being VTP-pruned from a trunk?",
+  "options": [
+    "The VLAN will be deleted from the switch.",
+    "The VLAN will not be forwarded over the trunk.",
+    "The VLAN will be added to the allowed list.",
+    "The VLAN will be forwarded over the trunk."
+  ],
+  "correctOption": "The VLAN will not be forwarded over the trunk."
+},
+{
+  "question": ". What does the 'switchport trunk allowed vlan' command do?",
+  "options": [
+    "It allows all VLANs by default.",
+    "It enables trunking on all ports.",
+    "It limits the VLANs whose traffic can use a trunk.",
+    "It removes VLANs from the switch configuration."
+  ],
+  "correctOption": "It limits the VLANs whose traffic can use a trunk."
+},
+{
+  "question": "What happens when the switchport trunk allowed vlan command is used?",
+  "options": [
+    "It removes all VLANs from the trunk.",
+    "It allows only VLANs that are active.",
+    "It limits vlans allowed on the trunk",
+    "It lists all VLANs from 1 to 4094."
+  ],
+  "correctOption": "It limits vlans allowed on the trunk"
+},
+{
+  "question": "What does the output of the show interfaces trunk command include?",
+  "options": [
+    "Only VLANs that are shut down.",
+    "Only the active VLANs.",
+    "Three separate lists of VLANs.",
+    "A single list of all VLANs."
+  ],
+  "correctOption": "Three separate lists of VLANs."
+},
+{
+  "question": "What does the first list of VLANs in the show interfaces trunk command output represent?",
+  "options": [
+    "VLANs that are currently in a blocking state.",
+    "All VLANs defined on the switch.",
+    "VLANs allowed over the trunk",
+    "Only active VLANs on the trunk."
+  ],
+  "correctOption": "VLANs allowed over the trunk"
+},
+{
+  "question": "What is the second list of VLANs in the show interfaces trunk command output?",
+  "options": [
+    "VLANs that are currently active and defined to the local switch.",
+    "All VLANs allowed on the trunk.",
+    "VLANs that are in a blocking state.",
+    "VLANs that have been shut down."
+  ],
+  "correctOption": "VLANs that are currently active and defined to the local switch."
+},
+{
+  "question": "What does the third list of VLANs in the show interfaces trunk command output include?",
+  "options": [
+    "VLANs that are defined on the switch.",
+    "VLANs that are allowed.",
+    "VLANs in an STP forwarding state for an interface.",
+    "VLANs that are active."
+  ],
+  "correctOption": "VLANs in an STP forwarding state for an interface."
+},
+{
+  "question": "What is the consequence of mismatched native VLAN IDs on a trunk?",
+  "options": [
+    "It has no impact on VLAN traffic.",
+    "It can cause frames to jump between VLANs.",
+    "It will block all VLAN traffic.",
+    "It will automatically correct itself."
+  ],
+  "correctOption": "It can cause frames to jump between VLANs."
+},
+{
+  "question": "What occurs if the native VLANs differ on two neighboring switches?",
+  "options": [
+    "Frames sent in the native VLAN are forwarded correctly.",
+    "Frames sent in the native VLAN can be misinterpreted.",
+    "The switches will ignore the native VLAN settings.",
+    "All VLANs will be blocked."
+  ],
+  "correctOption": "Frames sent in the native VLAN can be misinterpreted."
+},
+{
+  "question": "What happens when switch SW1 sends a frame using native VLAN?",
+  "options": [
+    "The frame is blocked by the switch.",
+    "The frame is forwarded without a VLAN header.",
+    "A VLAN header is added to the frame.",
+    "The frame is sent to all VLANs."
+  ],
+  "correctOption": "The frame is forwarded without a VLAN header."
+},
+{
+  "question": "What is VLAN hopping?",
+  "options": [
+    "The process of creating multiple VLANs.",
+    "When a frame is sent in one VLAN but believed to be in another.",
+    "The ability to switch between VLANs seamlessly.",
+    "The method of blocking VLAN traffic."
+  ],
+  "correctOption": "When a frame is sent in one VLAN but believed to be in another."
+},
+{
+  "question": "What is the correct command to disable a VLAN?",
+  "options": [
+    "switchport mode access",
+    "shutdown VLAN",
+    "no shutdown VLAN",
+    "vtp mode off"
+  ],
+  "correctOption": "shutdown VLAN"
+},
+{
+  "question": "Which command would you use to enable a VLAN that has been previously disabled?",
+  "options": [
+    "switchport access vlan vlan-id",
+    "no shutdown VLAN",
+    "vtp mode server",
+    "show vlan summary"
+  ],
+  "correctOption": "no shutdown VLAN"
+},
+{
+  "question": "What is the purpose of the command 'vlan vlan-id' in VLAN configuration?",
+  "options": [
+    "To delete a VLAN from the configuration.",
+    "To create a VLAN and enter VLAN configuration mode.",
+    "To display the current VLAN settings.",
+    "To enable trunking on the interface."
+  ],
+  "correctOption": "To create a VLAN and enter VLAN configuration mode."
+},
+{
+  "question": "What does the command 'vtp mode {server | client | transparent | off}' accomplish?",
+  "options": [
+    "It configures the VLAN trunking protocol mode.",
+    "It enables or disables a specific VLAN.",
+    "It creates a new VLAN in the configuration.",
+    "It displays the current VLAN settings."
+  ],
+  "correctOption": "It configures the VLAN trunking protocol mode."
+},
+{
+  "question": "How does the command 'switchport mode {access | dynamic {auto | desirable} | trunk}' affect a network interface?",
+  "options": [
+    "It configures the interface to operate in a specific VLAN.",
+    "It defines the administrative mode for trunking on the interface.",
+    "It enables the interface for VTP configuration.",
+    "It displays the operational state of the interface."
+  ],
+  "correctOption": "It defines the administrative mode for trunking on the interface."
+},
+{
+  "question": "What is the function of the command 'switchport access vlan vlan-id'?",
+  "options": [
+    "To enable VTP on the interface.",
+    "To display the VLAN configuration.",
+    "To statically assign the interface to a specific VLAN.",
+    "To configure the interface as a trunk port."
+  ],
+  "correctOption": "To statically assign the interface to a specific VLAN."
+},
+{
+  "question": "Which command would you use to specify the encapsulation type for a trunk link?",
+  "options": [
+    "vlan vlan-id",
+    "switchport mode trunk",
+    "switchport trunk encapsulation {dot1q | isl | negotiate}",
+    "show interfaces interface-id switchport"
+  ],
+  "correctOption": "switchport trunk encapsulation {dot1q | isl | negotiate}"
+},
+{
+  "question": "What information does the command 'show interfaces interface-id switchport' provide?",
+  "options": [
+    "Details about VLAN configuration.",
+    "A list of all VLANs configured on the switch.",
+    "The current VTP mode of the switch.",
+    "Operational state and administrative settings of the interface."
+  ],
+  "correctOption": "Operational state and administrative settings of the interface."
+},
+{
+  "question": "What does the command 'show vlan [brief | id vlan-id | name vlan-name | summary]' do?",
+  "options": [
+    "It displays the trunking configuration.",
+    "It enables or disables a VLAN.",
+    "It lists information about VLAN.",
+    "It configures a new VLAN on the switch."
+  ],
+  "correctOption": "It lists information about VLAN."
+},
+{
+  "question": "What is the primary purpose of Spanning Tree Protocol (STP) and Rapid STP (RSTP) in a LAN?",
+  "options": [
+    "To prevent Ethernet frames from looping indefinitely.",
+    "To increase the speed of data transmission.",
+    "To enhance the security of network communications.",
+    "To manage IP address allocation."
+  ],
+  "correctOption": "To prevent Ethernet frames from looping indefinitely."
+},
+{
+  "question": "How do STP and RSTP prevent frame looping in a network?",
+  "options": [
+    "By increasing the bandwidth of the network.",
+    "By blocking certain switch ports.",
+    "By encrypting data packets.",
+    "By segmenting the network into smaller subnets."
+  ],
+  "correctOption": "By blocking certain switch ports."
+},
+{
+  "question": "What are the two main goals of STP and RSTP when managing switch ports?",
+  "options": [
+    "To maximize data throughput and minimize latency.",
+    "To ensure all devices in a VLAN can communicate and prevent frame looping.",
+    "To provide redundancy and enhance network security.",
+    "To simplify network management and reduce costs."
+  ],
+  "correctOption": "To ensure all devices in a VLAN can communicate and prevent frame looping."
+},
+{
+  "question": "What distinguishes Rapid STP (RSTP) from traditional STP?",
+  "options": [
+    "RSTP requires more hardware resources than STP.",
+    "RSTP does not support VLANs.",
+    "RSTP allows for faster convergence and recovery from failures.",
+    "RSTP is slower and less efficient than STP."
+  ],
+  "correctOption": "RSTP allows for faster convergence and recovery from failures."
+},
+{
+  "question": "What additional check does STP/RSTP perform on each interface?",
+  "options": [
+    "It verifies the speed of the connection.",
+    "It analyzes the type of data being transmitted.",
+    "It checks for user traffic before allowing data transmission.",
+    "It monitors for unauthorized access attempts."
+  ],
+  "correctOption": "It checks for user traffic before allowing data transmission."
+},
+{
+  "question": "What happens to a switch port that is in the blocking state under STP/RSTP?",
+  "options": [
+    "It prioritizes traffic based on type.",
+    "It allows only broadcast traffic.",
+    "It disables the interface for user traffic.",
+    "It forwards all user traffic."
+  ],
+  "correctOption": "It disables the interface for user traffic."
+},
+{
+  "question": "What common problems in Ethernet LANs does STP/RSTP help prevent?",
+  "options": [
+    "Data loss and unauthorized access.",
+    "Frame looping and broadcast storms.",
+    "Network congestion and slow data transfer.",
+    "Hardware failures and software bugs."
+  ],
+  "correctOption": "Frame looping and broadcast storms."
+},
+{
+  "question": "What is a broadcast storm, and how is it related to STP/RSTP?",
+  "options": [
+    "A technique for optimizing data transmission in a LAN.",
+    "A method of securing the network against unauthorized access.",
+    "A sudden increase in network speed caused by multiple devices.",
+    "A situation where looping frames cause excessive broadcast traffic."
+  ],
+  "correctOption": "A situation where looping frames cause excessive broadcast traffic."
+},
+{
+  "question": "What impact can a broadcast storm have on end-user devices?",
+  "options": [
+    "It can improve their performance by increasing data flow.",
+    "It can saturate network links and significantly impact performance.",
+    "It has no effect on device performance.",
+    "It can enhance security by limiting data access."
+  ],
+  "correctOption": "It can saturate network links and significantly impact performance."
+},
+{
+  "question": ". How does STP/RSTP manage the forwarding of broadcast frames in a network?",
+  "options": [
+    "By flooding broadcasts out all interfaces in the same VLAN except the incoming interface.",
+    "By blocking all broadcast frames to enhance security.",
+    "By prioritizing broadcast frames over unicast frames.",
+    "By limiting the number of devices that can receive broadcast frames."
+  ],
+  "correctOption": "By flooding broadcasts out all interfaces in the same VLAN except the incoming interface."
+},
+{
+  "question": "What is the primary purpose of Spanning Tree Protocol (STP) and Rapid STP (RSTP) in a LAN?",
+  "options": [
+    "To prevent Ethernet frames from looping indefinitely.",
+    "To increase the speed of data transmission.",
+    "To enhance the security of network communications.",
+    "To manage IP address allocation."
+  ],
+  "correctOption": "To prevent Ethernet frames from looping indefinitely."
+},
+{
+  "question": "How do STP and RSTP prevent frame looping in a network?",
+  "options": [
+    "By increasing the bandwidth of the network.",
+    "By blocking certain switch ports.",
+    "By encrypting data packets.",
+    "By segmenting the network into smaller subnets."
+  ],
+  "correctOption": "By blocking certain switch ports."
+},
+{
+  "question": "What are the two main goals of STP and RSTP when managing switch ports?",
+  "options": [
+    "To maximize data throughput and minimize latency.",
+    "To ensure all devices in a VLAN can communicate and prevent frame looping.",
+    "To provide redundancy and enhance network security.",
+    "To simplify network management and reduce costs."
+  ],
+  "correctOption": "To ensure all devices in a VLAN can communicate and prevent frame looping."
+},
+{
+  "question": "What distinguishes Rapid STP (RSTP) from traditional STP?",
+  "options": [
+    "RSTP requires more hardware resources than STP.",
+    "RSTP does not support VLANs.",
+    "RSTP allows for faster convergence and recovery from failures.",
+    "RSTP is slower and less efficient than STP."
+  ],
+  "correctOption": "RSTP allows for faster convergence and recovery from failures."
+},
+{
+  "question": "What additional check does STP/RSTP perform on each interface?",
+  "options": [
+    "It verifies the speed of the connection.",
+    "It analyzes the type of data being transmitted.",
+    "It checks for user traffic before allowing data transmission.",
+    "It monitors for unauthorized access attempts."
+  ],
+  "correctOption": "It checks for user traffic before allowing data transmission."
+},
+{
+  "question": "What happens to a switch port that is in the blocking state under STP/RSTP?",
+  "options": [
+    "It prioritizes traffic based on type.",
+    "It allows only broadcast traffic.",
+    "It disables the interface for user traffic.",
+    "It forwards all user traffic."
+  ],
+  "correctOption": "It disables the interface for user traffic."
+},
+{
+  "question": "What common problems in Ethernet LANs does STP/RSTP help prevent?",
+  "options": [
+    "Data loss and unauthorized access.",
+    "Frame looping and broadcast storms.",
+    "Network congestion and slow data transfer.",
+    "Hardware failures and software bugs."
+  ],
+  "correctOption": "Frame looping and broadcast storms."
+},
+{
+  "question": "What is a broadcast storm, and how is it related to STP/RSTP?",
+  "options": [
+    "A technique for optimizing data transmission in a LAN.",
+    "A method of securing the network against unauthorized access.",
+    "A sudden increase in network speed caused by multiple devices.",
+    "A situation where looping frames cause excessive broadcast traffic."
+  ],
+  "correctOption": "A situation where looping frames cause excessive broadcast traffic."
+},
+{
+  "question": "What impact can a broadcast storm have on end-user devices?",
+  "options": [
+    "It can improve their performance by increasing data flow.",
+    "It can saturate network links and significantly impact performance.",
+    "It has no effect on device performance.",
+    "It can enhance security by limiting data access."
+  ],
+  "correctOption": "It can saturate network links and significantly impact performance."
+},
+{
+  "question": ". How does STP/RSTP manage the forwarding of broadcast frames in a network?",
+  "options": [
+    "By flooding broadcasts out all interfaces in the same VLAN except the incoming interface.",
+    "By blocking all broadcast frames to enhance security.",
+    "By prioritizing broadcast frames over unicast frames.",
+    "By limiting the number of devices that can receive broadcast frames."
+  ],
+  "correctOption": "By flooding broadcasts out all interfaces in the same VLAN except the incoming interface."
+},
+{
+  "question": "What is a potential outcome for a device receiving multiple copies of the same frame?",
+  "options": [
+    "Faster data processing",
+    "Improved network efficiency",
+    "Application failure",
+    "Increased data integrity"
+  ],
+  "correctOption": "Application failure"
+},
+{
+  "question": "What happens when STP/RSTP is not implemented in a redundant LAN?",
+  "options": [
+    "Data transmission speeds increase",
+    "Problems such as loops and broadcast storms can occur",
+    "The network becomes more secure",
+    "All devices will communicate without issues"
+  ],
+  "correctOption": "Problems such as loops and broadcast storms can occur"
+},
+{
+  "question": "Which of the following is a consequence of MAC table instability?",
+  "options": [
+    "Frames being sent to incorrect locations",
+    "Improved network performance",
+    "Reduced network traffic",
+    "Increased security measures"
+  ],
+  "correctOption": "Frames being sent to incorrect locations"
+},
+{
+  "question": "Which of the following best describes the impact of looping frames on a switch's MAC address table?",
+  "options": [
+    "It stabilizes the MAC address entries",
+    "It reduces the number of entries in the table",
+    "It enhances the learning process of the switch",
+    "It leads to continual updates with incorrect entries"
+  ],
+  "correctOption": "It leads to continual updates with incorrect entries"
+},
+{
+  "question": "What typically causes a broadcast storm in a network?",
+  "options": [
+    "Improper IP address configuration",
+    "Excessive user traffic",
+    "Frames being forwarded repeatedly on the same links",
+    "A single switch failure"
+  ],
+  "correctOption": "Frames being forwarded repeatedly on the same links"
+},
+{
+  "question": "What effect does multiple frame transmission have on network applications?",
+  "options": [
+    "It has no impact on applications",
+    "It reduces the amount of data transmitted",
+    "It confuses the intended host",
+    "It enhances application performance"
+  ],
+  "correctOption": "It confuses the intended host"
+},
+{
+  "question": "What is the primary function of STP/RSTP in a LAN with redundancy?",
+  "options": [
+    "To increase the speed of data transmission",
+    "To prevent network loops",
+    "To manage IP address allocation",
+    "To enhance wireless connectivity"
+  ],
+  "correctOption": "To prevent network loops"
+},
+{
+  "question": "How does STP/RSTP prevent network loops?",
+  "options": [
+    "By limiting the number of devices on the network",
+    "By increasing the bandwidth of the network",
+    "By encrypting data packets",
+    "By placing switch ports in forwarding or blocking states"
+  ],
+  "correctOption": "By placing switch ports in forwarding or blocking states"
+},
+{
+  "question": "What occurs when a switch port is in a blocking state?",
+  "options": [
+    "It processes all received user frames",
+    "It forwards user frames",
+    "It does not forward user frames",
+    "It learns MAC addresses of received frames"
+  ],
+  "correctOption": "It does not forward user frames"
+},
+{
+  "question": ". What happens if one link fails in a network using STP/RSTP?",
+  "options": [
+    "STP/RSTP converges to allow traffic through another link",
+    "All traffic is immediately blocked",
+    "No changes occur in traffic flow",
+    "The network becomes inoperable"
+  ],
+  "correctOption": "STP/RSTP converges to allow traffic through another link"
+},
+{
+  "question": "What happens when you enter a password on a router's console?",
+  "options": [
+    "You see asterisks for each character typed.",
+    "The password is echoed back to you.",
+    "The characters are displayed as you type.",
+    "No characters or cursor movement is displayed."
+  ],
+  "correctOption": "No characters or cursor movement is displayed."
+},
+{
+  "question": "Which command must be entered to access privileged exec mode on a router?",
+  "options": [
+    "exit",
+    "login",
+    "enable",
+    "configure terminal"
+  ],
+  "correctOption": "enable"
+},
+{
+  "question": "What command is used to enter global configuration mode on a router?",
+  "options": [
+    "configure terminal",
+    "config",
+    "global config",
+    "set config"
+  ],
+  "correctOption": "configure terminal"
+},
+{
+  "question": "What is the primary purpose of the ip host command in a router's configuration?",
+  "options": [
+    "To reset the router to factory settings.",
+    "To create a host table entry for pinging another router using a hostname.",
+    "To display the router's current configuration settings.",
+    "To update the router's firmware."
+  ],
+  "correctOption": "To create a host table entry for pinging another router using a hostname."
+},
+{
+  "question": "What command is used to create a host table entry for R2's serial interface?",
+  "options": [
+    "ip host R2-serial 172.17.0.2",
+    "add host R2-serial 172.17.0.2",
+    "set host R2-serial 172.17.0.2",
+    "create host R2-serial 172.17.0.2"
+  ],
+  "correctOption": "ip host R2-serial 172.17.0.2"
+},
+{
+  "question": "Which of the following statements is true regarding the ping command after creating host table entries?",
+  "options": [
+    "It requires a special permission.",
+    "It cannot be used in user mode.",
+    "It can be used with hostnames.",
+    "It can only be used with IP addresses."
+  ],
+  "correctOption": "It can be used with hostnames."
+},
+{
+  "question": "Which command would you use to view all hostnames known to the local router?",
+  "options": [
+    "view hosts",
+    "display hosts",
+    "list hosts",
+    "show hosts"
+  ],
+  "correctOption": "show hosts"
+},
+{
+  "question": "Which command is used to check the status of interfaces in a network?",
+  "options": [
+    "display interface information",
+    "check interface status",
+    "show interfaces status",
+    "show arp interface"
+  ],
+  "correctOption": "show interfaces status"
+},
+{
+  "question": "What is the purpose of the command 'configure terminal' in network configuration?",
+  "options": [
+    "To exit the configuration mode.",
+    "To enter global configuration mode.",
+    "To save the configuration changes.",
+    "To display the current configuration."
+  ],
+  "correctOption": "To enter global configuration mode."
+},
+{
+  "question": "What must be done to remove an old static MAC address definition in port security?",
+  "options": [
+    "Use the command no switchport port-security mac-address.",
+    "Use the command delete mac-address.",
+    "Use the command clear port-security mac-address.",
+    "Use the command remove static mac-address."
+  ],
+  "correctOption": "Use the command no switchport port-security mac-address."
+},
+{
+  "question": "Which of the following best describes the relationship between ACL configuration and network traffic flow?",
+  "options": [
+    "ACLs are only used for security purposes.",
+    "ACLs can allow or deny specific types of traffic based on configuration.",
+    "ACLs only affect TCP traffic.",
+    "ACLs have no impact on network traffic."
+  ],
+  "correctOption": "ACLs can allow or deny specific types of traffic based on configuration."
+},
+{
+  "question": "What is the primary purpose of creating an ACL that filters UDP traffic?",
+  "options": [
+    "To permit only UDP traffic.",
+    "To filter only TCP traffic.",
+    "To block all traffic including ICMP.",
+    "To allow all traffic except for UDP."
+  ],
+  "correctOption": "To allow all traffic except for UDP."
+},
+{
+  "question": "What is the command to allow all other IP traffic after denying UDP traffic?",
+  "options": [
+    "access-list 100 deny udp any any",
+    "deny all ip traffic",
+    "ip access-group 100 in",
+    "access-list 100 permit ip any any"
+  ],
+  "correctOption": "access-list 100 permit ip any any"
+},
+{
+  "question": "Which command is used to deny all UDP traffic in an ACL configuration?",
+  "options": [
+    "ip access-group 100 in",
+    "access-list 100 deny all",
+    "access-list 100 permit ip any any",
+    "access-list 100 deny udp any any"
+  ],
+  "correctOption": "access-list 100 deny udp any any"
+},
+{
+  "question": "To enable an ACL on a specific interface, which command should be used?",
+  "options": [
+    "enable access-list 100",
+    "ip access-group 100 in",
+    "access-list 100 permit ip any any",
+    "set interface S0/0/0"
+  ],
+  "correctOption": "ip access-group 100 in"
+},
+{
+  "question": "Which command is used to configure the port security feature with a specific MAC address?",
+  "options": [
+    "configure port-security mac-address 0200.1111.1111",
+    "port-security mac-address 0200.1111.1111",
+    "switchport port-security mac-address 0200.1111.1111",
+    "set port-security mac-address 0200.1111.1111"
+  ],
+  "correctOption": "switchport port-security mac-address 0200.1111.1111"
+},
+{
+  "question": "What is the purpose of enabling the port security feature on a switch interface?",
+  "options": [
+    "To allow unlimited MAC addresses on the interface",
+    "To restrict the number of MAC addresses that can connect",
+    "To disable all traffic on the interface",
+    "To enhance the speed of data transmission"
+  ],
+  "correctOption": "To restrict the number of MAC addresses that can connect"
+},
+{
+  "question": "What command would you use to generate traffic from PC2 to PC1?",
+  "options": [
+    "ping 172.16.0.10",
+    "send traffic 172.16.0.10",
+    "generate ping 172.16.0.10",
+    "test connectivity 172.16.0.10"
+  ],
+  "correctOption": "ping 172.16.0.10"
+},
+{
+  "question": "How do you return to interface configuration mode for FastEthernet0/1?",
+  "options": [
+    "interface FastEthernet0/1",
+    "Access interface FastEthernet0/1 configuration",
+    "Switch to interface mode FastEthernet0/1",
+    "Get into interface configuration FastEthernet0/1"
+  ],
+  "correctOption": "interface FastEthernet0/1"
+},
+{
+  "question": "What command would you use to configure the interface to support a maximum of two different MAC addresses?",
+  "options": [
+    "configure port-security max-mac 2",
+    "switchport port-security maximum 2",
+    "set port-security max 2",
+    "port-security max-address 2"
+  ],
+  "correctOption": "switchport port-security maximum 2"
+},
+{
+  "question": "If the err-disable recovery interval is set to 10 seconds, what does this imply?",
+  "options": [
+    "The interface will remain disabled indefinitely.",
+    "The interface will automatically recover after 10 seconds.",
+    "The interface will require manual intervention to recover.",
+    "The recovery interval can be adjusted to any value."
+  ],
+  "correctOption": "The interface will automatically recover after 10 seconds."
+},
+{
+  "question": "What command enables automatic port security recovery?",
+  "options": [
+    "errdisable recovery cause psecure-violation",
+    "enable port-security recovery",
+    "configure auto-recovery port-security",
+    "set recovery cause psecure-violation"
+  ],
+  "correctOption": "errdisable recovery cause psecure-violation"
+},
+{
+  "question": "Why might an interface be re-enabled instead of remaining err-disabled after a configuration change?",
+  "options": [
+    "The switch automatically detects and corrects errors.",
+    "The configuration change improved the security settings.",
+    "The interface was manually reset by the administrator.",
+    "The err-disable recovery interval was set correctly."
+  ],
+  "correctOption": "The err-disable recovery interval was set correctly."
+},
+{
+  "question": "What is likely to happen to the status of the FastEthernet0/1 interface after enabling port security?",
+  "options": [
+    "It will remain in an active state regardless of violations.",
+    "It will allow all MAC addresses without restrictions.",
+    "It may go into an err-disabled state if a violation occurs.",
+    "It will automatically reset to factory settings."
+  ],
+  "correctOption": "It may go into an err-disabled state if a violation occurs."
+},
+
             
   
         ],
